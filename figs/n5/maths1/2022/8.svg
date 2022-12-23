@@ -1,0 +1,14 @@
+<svg width="267" height="212" viewBox="0 0 267 212" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.9998 211.759V21.4265" stroke="black" stroke-width="1.33332" stroke-miterlimit="10.433"/>
+<path d="M40.8397 9.61317L36.9597 24.0664H44.7063L40.8397 9.61317Z" fill="black"/>
+<path d="M0 120.719H250.305" stroke="black" stroke-width="1.33332" stroke-miterlimit="10.433"/>
+<path d="M247.665 124.426L262.119 120.559L247.665 116.679V124.426Z" fill="black"/>
+<path d="M207.785 120.719L205.105 128.959L202.465 136.972L201.159 140.879L199.865 144.706L198.559 148.466L197.265 152.132L195.985 155.719L194.705 159.199L193.412 162.586L192.145 165.879L190.865 169.052L189.585 172.119L188.305 175.052L187.039 177.879L185.759 180.559L184.479 183.105L183.186 185.519L181.906 187.785L180.612 189.892L179.319 191.852L178.012 193.652L176.706 195.279L175.399 196.732L174.066 198.012L172.732 199.105L171.399 200.025L170.052 200.732L168.692 201.252L167.319 201.572L165.932 201.679H166.252C151.412 201.679 138.759 165.186 124.386 120.719C110.026 76.2528 97.3594 39.773 82.5328 39.773H82.8528C68.0129 39.773 55.3597 76.2528 40.9998 120.719" stroke="black" stroke-width="1.33332" stroke-miterlimit="10.433" stroke-linejoin="round"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="CMU Serif" font-size="15.9999" font-style="italic" font-weight="500" letter-spacing="0em"><tspan x="26.4666" y="14.9531">y</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="CMU Serif" font-size="15.9999" font-style="italic" font-weight="500" letter-spacing="0em"><tspan x="258.452" y="135.886">x</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="28.8398" y="134.782">0</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="28.2666" y="43.8895">3</tspan></text>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M20.3467 202.852H27.0133V201.519H20.3467V202.852Z" fill="black"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="29.1199" y="205.942">3</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="207.426" y="134.356">45</tspan></text>
+</svg>
