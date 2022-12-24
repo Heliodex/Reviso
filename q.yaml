@@ -38,7 +38,7 @@
         The diagram below shows a cone with diameter 20 centimetres and height 60 centimetres.
         ~1
     c:
-        q: Calculate the volume of the cone.
+      - q: Calculate the volume of the cone.
         post: "**Take $\\pi$ = 3.14.**"
         marks: 2
 
@@ -53,7 +53,7 @@
         CD is a diameter of the circle.
         Angle EOD is 68°.
     c:
-        q: Calculate the size of angle ACE.
+      - q: Calculate the size of angle ACE.
         marks: 3
 
   - level: n5
@@ -137,7 +137,7 @@
     year: 2022
     qn: 12
     c:
-      - q: Express $ \cfrac{4}{x+2}\div \cfrac{5}{(x+2)^2},x\ne -2$ as a single fraction in its simplest form.
+      - q: Express $\cfrac{4}{x+2}\div \cfrac{5}{(x+2)^2},x\ne -2$ as a single fraction in its simplest form.
         marks: 2
 
   - level: n5

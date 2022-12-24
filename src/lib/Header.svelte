@@ -42,10 +42,6 @@
 				margin: 0 1.5rem
 				color: white
 				text-decoration: none
-				transition: filter 0.2s
-				&:hover
-					transition: filter 0.2s
-					filter: opacity(80%)
 
 	@media screen and (min-width: 600px)
 		#logo

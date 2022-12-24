@@ -1,11 +1,18 @@
+<script lang="ts">
+	import { page } from "$app/stores"
+	export let data: any
+</script>
+
 <svelte:head>
-	<title>Home • sqappq</title>
+	<title>Subjects • sqappq</title>
 </svelte:head>
 
-<h1>Levels</h1>
+<h1>Subjects</h1>
 
 <div id="grid">
-	<a href="/n5">N5</a>
+	{#each data.subjects as subject}
+		<a href="{$page.url.pathname}/{subject}">{subject}</a>
+	{/each}
 </div>
 
 <style lang="sass">
