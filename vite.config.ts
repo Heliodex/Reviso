@@ -3,12 +3,6 @@ import type { UserConfig } from 'vite';
 
 const config: UserConfig = {
 	plugins: [sveltekit()],
-
-	server: {
-		watch: {
-			usePolling: true,
-		},
-	}
 };
 
 export default config;
