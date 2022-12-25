@@ -8,6 +8,10 @@
 	color: white
 	background-color: black
 
+:root
+	overflow: overlay
+	overflow-x: hidden
+
 body
 	margin: 0
 	height: 100vh
@@ -17,3 +21,13 @@ a, button
 	&:hover
 		transition: filter 0.2s
 		filter: opacity(80%)
+
+::-webkit-scrollbar
+	width: 15px
+	&-track
+		background: none
+	&-thumb
+		border-radius: 9rem
+		background: #262423
+		&:hover
+			background: #464443

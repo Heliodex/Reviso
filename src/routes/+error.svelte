@@ -7,11 +7,11 @@
 </svelte:head>
 
 <div id="container">
-		<h1>
-			Error {$page.status}
-		</h1>
-		<br />
-		{$page.error?.message}
+	<h1>
+		Error {$page.status}
+	</h1>
+	<br />
+	{$page.error?.message}
 </div>
 
 <style lang="sass">

@@ -1,8 +1,6 @@
 <header>
 	<div>
-		<a id="logo" href="/">
-			sqappq
-		</a>
+		<a id="logo" href="/"> sqappq </a>
 		<div class="right">
 			<a href="/">Home</a>
 			<a href="/about">About</a>
@@ -26,7 +24,7 @@
 		position: fixed
 		top: 0
 
-		background-color: #333
+		background-color: #333231
 		backdrop-filter: blur(10px)
 
 		div

@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { math, display } from "mathlifier"
 	import { marked } from "marked"
+	import Question from "$lib/Question.svelte"
 
 	export let data: any
 
@@ -39,7 +40,7 @@
 	<div>
 		{data.level.toUpperCase()}
 		{data.subject}
-		{data.year} paper, question {data.qn}
+		{data.year} paper {data.paper}, question {data.qn}
 	</div>
 </div>
 
@@ -49,34 +50,14 @@
 
 {#if data.c.length > 1}
 	<ol type="a">
-		{#each data.c as question}
+		{#each data.c as part}
 			<li>
-				{@html parse(question.q)}
-				{#if question.post}
-					{@html parse(question.post)}
-				{/if}
-				<p class="marks">
-					{question.marks}
-					{question.marks == 1 ? "mark" : "marks"}
-				</p>
-				{#if markScheme}
-					<img src="/{data.level}/{data.subject}/{data.year}/mi{question.mi}.svg" alt="Mark scheme" />
-				{/if}
+				<Question {data} part={part.p} {markScheme} {parse} />
 			</li>
-		{/each}
-	</ol>
+			{/each}
+		</ol>
 {:else}
-	{@html parse(data.c[0].q)}
-	{#if data.c[0].post}
-		{@html parse(data.c[0].post)}
-	{/if}
-	<p class="marks">
-		{data.c[0].marks}
-		{data.c[0].marks == 1 ? "mark" : "marks"}
-	</p>
-	{#if markScheme}
-		<img class="" src="/{data.level}/{data.subject}/{data.year}/mi{data.c[0].mi}.svg" alt="Mark scheme" />
-	{/if}
+	<Question {data} part={data.c[0].p} {markScheme} {parse} />
 {/if}
 
 <div class="row">
@@ -89,14 +70,6 @@
 </div>
 
 <style lang="sass">
-	:global(img)
-		filter: invert(1)
-
-	:global(.img)
-		display: block
-		width: fit-content
-		margin: 3rem auto
-
 	.row
 		display: flex
 		justify-content: space-between
@@ -113,8 +86,4 @@
 		background-color: #444
 		padding: 0.5rem 1rem
 		border-radius: 0.5rem
-
-	.marks
-		text-align: right
-		color: #5f5
 </style>
