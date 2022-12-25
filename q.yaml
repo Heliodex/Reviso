@@ -1,5 +1,5 @@
-#   - level: subject level eg. n4, n5, h, ah
-    # subject: subject name eg. maths1, maths2, psychology, chemistry
+#   - level: subject level eg. n4, N5, h, ah
+    # subject: subject name eg. Maths (non-calculator), maths2, psychology, chemistry
     # year: year
     # qn: question number
 
@@ -8,13 +8,13 @@
         #   - q: |- 
             # question, in markdown with KaTeX
             # can contain multiple lines
-            # can contain diagrams eg. ~1 = fig1, ~2 = fig2
+            # can contain diagrams eg. ~ = fig1, ~2 = fig2
 
             # post: post question eg. "Give your answer to 2 significant figures.", "You may wish to use your data booklet to help you.", "**Take $\pi$ = 3.14.**" 
             # marks: marks
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 1
     c:
@@ -22,33 +22,33 @@
         post: Give your answer in its simplest form.
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 2
     c:
       - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 3
     pre: |-
         The diagram below shows a cone with diameter 20 centimetres and height 60 centimetres.
-        ~1
+        ~
     c:
       - q: Calculate the volume of the cone.
         post: "**Take $\\pi$ = 3.14.**"
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 4
     pre: |-
         The diagram below shows a circle with centre O.
-        ~1
+        ~
         AB is a tangent to the circle at the point C.
         CD is a diameter of the circle.
         Angle EOD is 68°.
@@ -56,8 +56,8 @@
       - q: Calculate the size of angle ACE.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 5
     c:
@@ -67,8 +67,8 @@
           of $f(x)=x^2+8x+15$.
         marks: 1
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 6
     c:
@@ -76,34 +76,34 @@
         post: Give the equation in its simplest form.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 7
     c:
       - q: Change the subject of the formula $D=\frac{B+4}{C^2}$ to B.
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 8
     pre: |- 
         Part of the graph of $y=a\sin bx\degree$ is shown in the diagram.
-        ~1
+        ~
     c:
       - q: State the value of $a$.
         marks: 1
       - q: State the value of $b$.
         marks: 1
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 9
     pre: |- 
         The diagram shows triangle ABC.
-        ~1
+        ~
         * AB = 7 centimetres
         * BC = 3 centimetres
         * AC = 5 centimetres
@@ -112,8 +112,8 @@
         post: Give your answer in its simplest form.
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 10
     pre: |- 
@@ -123,8 +123,8 @@
       - q: Calculate the cost of the flower seeds without the discount.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 11
     c:
@@ -132,24 +132,24 @@
         post: Give your answer with a **positive** power.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 12
     c:
       - q: Express $\cfrac{4}{x+2}\div \cfrac{5}{(x+2)^2},x\ne -2$ as a single fraction in its simplest form.
         marks: 2
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 13
     c:
       - q: Expand and simplify $\sqrt{10}\left(\sqrt{10}-\sqrt{2}\right)+8\sqrt{5}$.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 14
     c:
@@ -157,13 +157,13 @@
         post: On your sketch, show clearly the points of intersection with the $x$‑axis and the $y$‑axis, and the coordinates of the turning point.
         marks: 3
 
-  - level: n5
-    subject: maths1
+  - level: N5
+    subject: Maths (non-calculator)
     year: 2022
     qn: 15
     pre: |-
         A triangle and rectangle are shown in the diagram.
-        ~1
+        ~
     c:
       - q: Find an expression for the area of the triangle.
         marks: 1

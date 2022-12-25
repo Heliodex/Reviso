@@ -1,7 +1,7 @@
 [
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 1,
 		"c": [
@@ -13,8 +13,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 2,
 		"c": [
@@ -25,11 +25,11 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 3,
-		"pre": "The diagram below shows a cone with diameter 20 centimetres and height 60 centimetres.\n~1",
+		"pre": "The diagram below shows a cone with diameter 20 centimetres and height 60 centimetres.\n~",
 		"c": [
 			{
 				"q": "Calculate the volume of the cone.",
@@ -39,11 +39,11 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 4,
-		"pre": "The diagram below shows a circle with centre O.\n~1\nAB is a tangent to the circle at the point C.\nCD is a diameter of the circle.\nAngle EOD is 68°.",
+		"pre": "The diagram below shows a circle with centre O.\n~\nAB is a tangent to the circle at the point C.\nCD is a diameter of the circle.\nAngle EOD is 68°.",
 		"c": [
 			{
 				"q": "Calculate the size of angle ACE.",
@@ -52,8 +52,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 5,
 		"c": [
@@ -68,8 +68,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 6,
 		"c": [
@@ -81,8 +81,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 7,
 		"c": [
@@ -93,11 +93,11 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 8,
-		"pre": "Part of the graph of $y=a\\sin bx\\degree$ is shown in the diagram.\n~1",
+		"pre": "Part of the graph of $y=a\\sin bx\\degree$ is shown in the diagram.\n~",
 		"c": [
 			{
 				"q": "State the value of $a$.",
@@ -110,11 +110,11 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 9,
-		"pre": "The diagram shows triangle ABC.\n~1\n* AB = 7 centimetres\n* BC = 3 centimetres\n* AC = 5 centimetres",
+		"pre": "The diagram shows triangle ABC.\n~\n* AB = 7 centimetres\n* BC = 3 centimetres\n* AC = 5 centimetres",
 		"c": [
 			{
 				"q": "Calculate the value of $cos$ B.",
@@ -124,8 +124,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 10,
 		"pre": "Tommy buys flower seeds from a website.\nTommy is given a 30% discount. He pays £16.10 for the seeds.",
@@ -137,8 +137,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 11,
 		"c": [
@@ -150,8 +150,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 12,
 		"c": [
@@ -162,8 +162,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 13,
 		"c": [
@@ -174,8 +174,8 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 14,
 		"c": [
@@ -187,11 +187,11 @@
 		]
 	},
 	{
-		"level": "n5",
-		"subject": "maths1",
+		"level": "N5",
+		"subject": "Maths (non-calc)",
 		"year": 2022,
 		"qn": 15,
-		"pre": "A triangle and rectangle are shown in the diagram.\n~1",
+		"pre": "A triangle and rectangle are shown in the diagram.\n~",
 		"c": [
 			{
 				"q": "Find an expression for the area of the triangle.",

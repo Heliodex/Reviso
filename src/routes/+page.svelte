@@ -5,13 +5,13 @@
 <h1>Levels</h1>
 
 <div id="grid">
-	<a href="/n5">N5</a>
+	<a href="/N5">N5</a>
 </div>
 
 <style lang="sass">
 	#grid
 		display: grid
-		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
+		grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr))
 		a
 			text-decoration: none
 			text-align: center

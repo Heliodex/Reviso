@@ -13,12 +13,13 @@
 	{#each data.subjects as subject}
 		<a href="{$page.url.pathname}/{subject}">{subject}</a>
 	{/each}
+	<a href="{$page.url.pathname}/a">a</a>
 </div>
 
 <style lang="sass">
 	#grid
 		display: grid
-		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr))
+		grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr))
 		a
 			text-decoration: none
 			text-align: center
