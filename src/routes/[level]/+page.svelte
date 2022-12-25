@@ -13,7 +13,6 @@
 	{#each data.subjects as subject}
 		<a href="{$page.url.pathname}/{subject}">{subject}</a>
 	{/each}
-	<a href="{$page.url.pathname}/a">a</a>
 </div>
 
 <style lang="sass">

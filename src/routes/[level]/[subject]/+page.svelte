@@ -22,43 +22,99 @@
 			else bits.push(txt2[i])
 		}
 
-		let txt3 = bits.join("").replace(/~(\d)/g, `<a href="/figs/n5/maths1/2022/${data.qn}-$1.svg" target="_blank"><img src="/figs/n5/maths1/2022/${data.qn}-$1.svg" /></a>`).replace(/~/g, `<a href="/figs/n5/maths1/2022/${data.qn}.svg" target="_blank"><img src="/figs/n5/maths1/2022/${data.qn}.svg" /></a>`)
+		let txt3 = bits.join("").replace(/~(\d)/g, `<a class="img" href="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" /></a>`).replace(/~/g, `<a class="img"  href="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" /></a>`)
 
 		return txt3
 	}
+
+	let markScheme = false
 </script>
 
 <svelte:head>
 	<title>Question • sqappq</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous" />
 </svelte:head>
-
-<h1>Question</h1>
-<div>
-	{data.level.toUpperCase()}
+<div class="row">
+	<h1>Question</h1>
+	<div>
+		{data.level.toUpperCase()}
+		{data.subject}
+		{data.year} paper, question {data.qn}
+	</div>
 </div>
 
 {#if data.pre}
 	{@html parse(data.pre)}
-	<br />
 {/if}
 
-{#each data.c as question}
-	{@html parse(question.q)}
-	<br />
-	{#if question.post}
-		{@html parse(question.post)}
-		<br />
+{#if data.c.length > 1}
+	<ol type="a">
+		{#each data.c as question}
+			<li>
+				{@html parse(question.q)}
+				{#if question.post}
+					{@html parse(question.post)}
+				{/if}
+				<p class="marks">
+					{question.marks}
+					{question.marks == 1 ? "mark" : "marks"}
+				</p>
+				{#if markScheme}
+					<img src="/{data.level}/{data.subject}/{data.year}/mi{question.mi}.svg" alt="Mark scheme" />
+				{/if}
+			</li>
+		{/each}
+	</ol>
+{:else}
+	{@html parse(data.c[0].q)}
+	{#if data.c[0].post}
+		{@html parse(data.c[0].post)}
 	{/if}
-{/each}
+	<p class="marks">
+		{data.c[0].marks}
+		{data.c[0].marks == 1 ? "mark" : "marks"}
+	</p>
+	{#if markScheme}
+		<img class="" src="/{data.level}/{data.subject}/{data.year}/mi{data.c[0].mi}.svg" alt="Mark scheme" />
+	{/if}
+{/if}
+
+<div class="row">
+	<a class="button" href="/{data.level}/{data.subject}?y={data.year}&q={data.qn}">Question link</a>
+	<button
+		on:click={() => {
+			markScheme = !markScheme
+		}}>{markScheme ? "Hide" : "Show"} mark schemes</button
+	>
+</div>
 
 <style lang="sass">
 	:global(img)
-		margin-top: 3rem
 		filter: invert(1)
 
-	:global(a)
+	:global(.img)
 		display: block
 		width: fit-content
-		margin: auto
+		margin: 3rem auto
+
+	.row
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+	button
+		border: none
+		font-size: 1rem
+		cursor: pointer
+
+	.button, button
+		text-decoration: none
+		color: #fff
+		background-color: #444
+		padding: 0.5rem 1rem
+		border-radius: 0.5rem
+
+	.marks
+		text-align: right
+		color: #5f5
 </style>

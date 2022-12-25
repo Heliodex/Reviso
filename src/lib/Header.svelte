@@ -18,6 +18,7 @@
 		font-size: 1.5rem
 
 	header
+		z-index: 9
 		width: 100%
 		font-size: 1.2rem
 		height: 3rem
