@@ -3,8 +3,8 @@
 		<a id="logo" href="/"> Reviso </a>
 		<div class="right">
 			<a href="/">Home</a>
-			<a href="/about">About</a>
-			<a href="/privacy">Privacy</a>
+			<!-- <a href="/about">About</a>
+			<a href="/privacy">Privacy</a> -->
 		</div>
 	</div>
 </header>

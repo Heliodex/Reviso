@@ -11,8 +11,6 @@
 	<slot />
 </main>
 
-<footer>Reviso</footer>
-
 <style lang="sass">
 	main
 		padding: 3rem 1rem 5rem 1rem
@@ -20,20 +18,7 @@
 		max-width: 60rem
 		min-height: 82.5vh
 		margin: auto
-
-	footer
-		height: 20vh
-		width: 100vw
-		padding: 1vh
-
-		height: 9rem
-		background: #121110
-		display: flex
-		justify-content: center
-		align-items: center
-		color: white
-		font-size: 1.2rem
-
+		
 	#bg
 		position: fixed
 		z-index: -99
