@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Home • sqappq</title>
+	<title>Home • Reviso</title>
 </svelte:head>
 
 <h1>Levels</h1>

@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Error {$page.status} • sqappq</title>
+	<title>Error {$page.status} • Reviso</title>
 </svelte:head>
 
 <div id="container">

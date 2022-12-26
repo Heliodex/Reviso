@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Subjects • sqappq</title>
+	<title>Subjects • Reviso</title>
 </svelte:head>
 
 <h1>Subjects</h1>

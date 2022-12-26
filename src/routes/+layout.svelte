@@ -5,15 +5,13 @@
 
 <Header />
 
-<div id="bg"></div>
+<div id="bg" />
 
 <main>
 	<slot />
 </main>
 
-<footer>
-	sqappq
-</footer>
+<footer>Reviso</footer>
 
 <style lang="sass">
 	main
