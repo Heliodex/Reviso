@@ -54,8 +54,8 @@
 			<li>
 				<Question {data} part={part.p} {markScheme} {parse} />
 			</li>
-			{/each}
-		</ol>
+		{/each}
+	</ol>
 {:else}
 	<Question {data} part={data.c[0].p} {markScheme} {parse} />
 {/if}
@@ -65,7 +65,7 @@
 	<button
 		on:click={() => {
 			markScheme = !markScheme
-		}}>{markScheme ? "Hide" : "Show"} mark schemes</button
+		}}>{markScheme ? "Hide" : "Show"} mark scheme / answer</button
 	>
 </div>
 
@@ -74,9 +74,12 @@
 		display: flex
 		justify-content: space-between
 		align-items: center
+		div
+			text-align: right
 
 	button
 		border: none
+		margin: 0 0.5rem
 		font-size: 1rem
 		cursor: pointer
 

@@ -15,6 +15,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
+		"@types/yamljs": "^0.2.31",
 		"autoprefixer": "^10.4.13",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
@@ -33,6 +34,7 @@
 		"mdsvex": "^0.10.6",
 		"postcss": "^8.4.20",
 		"rehype-katex-svelte": "^1.1.2",
-		"sass": "^1.57.1"
+		"sass": "^1.57.1",
+		"yamljs": "^0.3.0"
 	}
 }
