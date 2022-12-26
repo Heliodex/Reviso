@@ -1,7 +1,8 @@
 import YAML from "yamljs"
+import questionsRaw from "$lib/questions.yaml?raw"
 import { error } from "@sveltejs/kit"
 
-const questions = YAML.load("src/lib/questions.yaml")
+const questions = YAML.parse(questionsRaw)
 
 /** @type {import("@sveltejs/kit").PageServerLoad} */
 export const load = async ({ params }: { params: any }) => {
