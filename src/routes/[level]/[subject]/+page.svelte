@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { math, display } from "mathlifier"
 	import { marked } from "marked"
+	import { page } from "$app/stores"
+	import { invalidateAll } from "$app/navigation"
 	import Question from "$lib/Question.svelte"
 
 	export let data: any
@@ -35,7 +37,7 @@
 	<title>Question • Reviso</title>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous" />
 </svelte:head>
-<div class="row">
+<div id="row">
 	<h1>Question</h1>
 	<div>
 		{data.level.toUpperCase()}
@@ -60,8 +62,16 @@
 	<Question {data} part={data.c[0].p} {markScheme} {parse} />
 {/if}
 
-<div class="row">
-	<a class="button" href="/{data.level}/{data.subject}?y={data.year}&q={data.qn}">Question link</a>
+<div id="buttons">
+	<a class="button" href="/{data.level}/{data.subject}?y={data.year}&q={data.qn}">
+		Question link</a>
+	{#if $page.url.searchParams.has("y")}
+		<a class="button" href="/{data.level}/{data.subject}">New random question</a>
+	{:else}
+		<button on:click={invalidateAll}>
+			New random question
+		</button>
+	{/if}
 	<button
 		on:click={() => {
 			markScheme = !markScheme
@@ -69,24 +79,42 @@
 	>
 </div>
 
+<noscript>
+	<p>Some of these buttons rely on Javascript to work, which is currently disabled or failed to load.</p>
+</noscript>
+
 <style lang="sass">
-	.row
+	#row
 		display: flex
 		justify-content: space-between
 		align-items: center
 		div
+			margin-left: 1rem
 			text-align: right
 
-	button
+	#buttons
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-wrap: wrap
+
+	noscript p
+		margin: auto
+		text-align: center
+		font-size: 1.5rem
+		
+	.button, button
+		display: flex
+		width: fit-content
+		text-align: center
+
 		border: none
-		margin: 0 0.5rem
+		margin: 0.2rem 0.2rem
 		font-size: 1rem
 		cursor: pointer
-
-	.button, button
 		text-decoration: none
 		color: #fff
 		background-color: #444
 		padding: 0.5rem 1rem
-		border-radius: 0.5rem
+		border-radius: 9rem
 </style>

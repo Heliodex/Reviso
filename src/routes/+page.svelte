@@ -35,5 +35,5 @@
 			background: #333
 			padding: 1rem
 			margin: 0.5rem
-			border-radius: 0.5rem
+			border-radius: 1rem
 </style>

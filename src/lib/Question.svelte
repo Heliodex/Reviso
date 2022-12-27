@@ -3,9 +3,6 @@
 	export let part: any
 	export let markScheme = false
 	export let parse: Function
-
-	console.log("------------------")
-	console.log(part.c[0])
 </script>
 
 {#if part.pre}
@@ -70,7 +67,6 @@
 		border: 1px solid #ccc
 		border-collapse: collapse
 		padding: 0.5rem
-		border-radius: 0.5rem
 
 	:global(ol)
 		list-style-type: upper-alpha

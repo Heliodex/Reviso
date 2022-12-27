@@ -16,11 +16,19 @@ body
 	margin: 0
 	height: 100vh
 
+h1
+	background: linear-gradient(#f99, #85f)
+	background-clip: text
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+
 a, button
-	transition: filter 0.2s
+	transition: filter 0.2s, transform 0.15s
 	&:hover
-		transition: filter 0.2s
-		filter: opacity(80%)
+		filter: brightness(85%)
+	&:active
+		filter: brightness(70%)
+		transform: scale(0.95)
 
 ::-webkit-scrollbar
 	width: 15px

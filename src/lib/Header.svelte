@@ -1,6 +1,6 @@
 <header>
 	<div>
-		<a id="logo" href="/"> Reviso </a>
+		<a id="logo" href="/">Reviso</a>
 		<div class="right">
 			<a href="/">Home</a>
 			<!-- <a href="/about">About</a>
@@ -10,11 +10,6 @@
 </header>
 
 <style lang="sass">
-	#logo
-		visibility: hidden
-		width: 0
-		font-size: 1.5rem
-
 	header
 		z-index: 9
 		width: 100%
@@ -42,8 +37,14 @@
 				color: white
 				text-decoration: none
 
-	@media screen and (min-width: 600px)
 		#logo
+			background: linear-gradient(90deg, #c59, #93f)
+			background-clip: text
+			-webkit-background-clip: text
+			-webkit-text-fill-color: transparent
+			
+			font-size: 1.6rem
+			font-weight: bold
 			width: auto
 			margin: 0
 			padding: 0

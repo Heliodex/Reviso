@@ -26,5 +26,5 @@
 		left: 0
 		width: 100%
 		height: 100%
-		background: linear-gradient(#000f, #3a1c7122), linear-gradient(90deg, #ffaf7b22, #00f7)
+		background: linear-gradient(#000f, #3a1c7122), linear-gradient(90deg, #f073, #00f8)
 </style>

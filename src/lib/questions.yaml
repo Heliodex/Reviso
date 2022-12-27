@@ -637,7 +637,7 @@
           - q: |-
               Which of the following equations is the overall redox reaction in the cell?
               <ol>
-                <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sub>+</sub> (aq) + 2e<sup>−</sup></li>
+                <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup></li>
                 <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ)</li>
                 <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → 2Br<sup>−</sup> (aq) + SO<sub>4</sub></sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq)</li>
                 <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq)</li>

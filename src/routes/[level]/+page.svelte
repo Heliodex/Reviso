@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { page } from "$app/stores"
 	export let data: any
-	console.log(data)
 </script>
 
 <svelte:head>
@@ -28,5 +27,5 @@
 			background: #333
 			padding: 1rem
 			margin: 0.5rem
-			border-radius: 0.5rem
+			border-radius: 1rem
 </style>
