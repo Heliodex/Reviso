@@ -8,7 +8,7 @@
 	Reviso is a site that provides random SQA past paper questions for revision.
 	It also provides marking schemes and answers for questions.<br />
 	<br />
-	At the moment, Reviso only supports a few questions from N5 Maths and Chemistry, but more will be added soon.<br />
+	At the moment, Reviso only supports a few questions from a few N5 subjects, but more are added regularly.<br />
 	<br />
 	Pick a level and subject and a question can be shown, reload the page to get a different question.
 	If you want to keep the question or send the link to someone, you can use the "Question link" button at the bottom of the page.

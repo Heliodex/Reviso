@@ -68,9 +68,6 @@
 		border-collapse: collapse
 		padding: 0.5rem
 
-	:global(ol)
-		list-style-type: upper-alpha
-
 	:global(li)
 		padding: 0.2rem 1rem
 		
@@ -78,9 +75,11 @@
 		text-align: center
 
 	.markScheme
-		display: block
-		width: 75%
-		margin: 3rem auto
+		position: relative
+		left: 45%
+		max-width: calc(100vw - 1rem)
+		transform: translateX(-50%)
+		margin: 3rem 1rem
 
 	.marks
 		text-align: right

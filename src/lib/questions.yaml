@@ -258,7 +258,7 @@
           c:
           - q: |-
               Which of the following is the atomic number of a metal?
-              <ol>
+              <ol type="A">
                 <li>1</li>
                 <li>33</li>
                 <li>45</li>
@@ -277,7 +277,7 @@
           c:
           - q: |-
               An atom is neutral because:
-              <ol>
+              <ol type="A">
                 <li>the number of protons equals the number of neutrons</li>
                 <li>the number of electrons equals the number of protons</li>
                 <li>the number of electrons equals the number of protons plus neutrons</li>
@@ -296,7 +296,7 @@
           c:
           - q: |-
               When liquid water changes to steam:
-              <ol>
+              <ol type="A">
                 <li>weak forces of attraction between the water molecules are broken</li>
                 <li>strong forces of attraction between the water molecules are broken</li>
                 <li>weak forces of attraction between the atoms in the water molecules are broken</li>
@@ -359,7 +359,7 @@
           c:
           - q: |-
               Which of the following bonds would be the most polar?
-              <ol>
+              <ol type="A">
                 <li>O-H</li>
                 <li>N-H</li>
                 <li>C-H</li>
@@ -397,7 +397,7 @@
           c:
           - q: |-
               Which of the following compounds is a salt?
-              <ol>
+              <ol type="A">
                 <li>Calcium oxide</li>
                 <li>Hydrogen nitrate</li>
                 <li>Sodium hydroxide</li>
@@ -416,7 +416,7 @@
           c:
           - q: |-
               The pH of the solution formed when ammonia is bubbled into water is most likely to be:
-              <ol>
+              <ol type="A">
                 <li>3</li>
                 <li>5</li>
                 <li>7</li>
@@ -439,7 +439,7 @@
           c:
           - q: |-
               Gas **X** could be:
-              <ol>
+              <ol type="A">
                 <li>methane</li>
                 <li>carbon monoxide</li>
                 <li>hydrogen</li>
@@ -490,7 +490,7 @@
           c:
           - q: |-
               The general formula for the alkanones is:
-              <ol>
+              <ol type="A">
                 <li>C<sub>n</sub>H<sub>2n-2</sub>O</li>
                 <li>C<sub>n</sub>H<sub>2n</sub>O</li>
                 <li>C<sub>n</sub>H<sub>2n+1</sub>O</li>
@@ -509,7 +509,7 @@
           c:
           - q: |-
               Which of the following could be the formula mass of a cycloalkane?
-              <ol>
+              <ol type="A">
                 <li>40</li>
                 <li>42</li>
                 <li>54</li>
@@ -528,7 +528,7 @@
           c:
           - q: |-
               Metallic bonding is a force of attraction between:
-              <ol>
+              <ol type="A">
                 <li>positive ions and delocalised electrons</li>
                 <li>negative ions and delocalised electrons</li>
                 <li>negative ions and positive ions</li>
@@ -567,7 +567,7 @@
           c:
           - q: |-
               Which of these metals can only be extracted from its ore by electrolysis and forms an oxide that is insoluble in water?
-              <ol>
+              <ol type="A">
                 <li>Aluminium</li>
                 <li>Calcium</li>
                 <li>Copper</li>
@@ -589,7 +589,7 @@
           c:
           - q: |-
               Which statement correctly describes the electron flow in the cell?
-              <ol>
+              <ol type="A">
                 <li>Through the electrolyte from aluminium to nickel.</li>
                 <li>Through the electrolyte from nickel to aluminium.</li>
                 <li>Through the connecting wire from nickel to aluminium.</li>
@@ -609,7 +609,7 @@
           c:
           - q: |-
               Which metal, when paired with magnesium in a cell, will produce the highest voltage?
-              <ol>
+              <ol type="A">
                 <li>Iron</li>
                 <li>Lead</li>
                 <li>Tin</li>
@@ -636,7 +636,7 @@
           c:
           - q: |-
               Which of the following equations is the overall redox reaction in the cell?
-              <ol>
+              <ol type="A">
                 <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup></li>
                 <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ)</li>
                 <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → 2Br<sup>−</sup> (aq) + SO<sub>4</sub></sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq)</li>
@@ -693,7 +693,7 @@
           c:
           - q: |-
               Compared with radon-222 in the atmosphere, the half-life of the radon-222 in the plant cells will be:
-              <ol>
+              <ol type="A">
                 <li>shorter</li>
                 <li>longer</li>
                 <li>the same</li>
@@ -733,7 +733,7 @@
           c:
           - q: |-
               Which piece of apparatus should the student have used to more accurately measure out the 25 cm<sup>3</sup> volume of sodium hydroxide?
-              <ol>
+              <ol type="A">
                 <li>100 cm<sup>3</sup> beaker</li>
                 <li>25 cm<sup>3</sup> measuring cylinder</li>
                 <li>25 cm<sup>3</sup> pipette</li>
@@ -741,3 +741,126 @@
               </ol>
             marks: 1
             answer: C
+
+######## N5 Psychology ########
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 1a
+    c:
+     -  p:
+          c:
+          - q: Describe the Restoration Theory of Sleep (Oswald, 1966).
+            marks: 4
+            mi: 3
+          - q: Explain **one** strength and **one** weakness of the Restoration Theory of Sleep (Oswald, 1966).
+            marks: 4
+            mi: 3
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 1b
+    c:
+     -  p:
+          c:
+          - q: Describe the **aim(s)** and **results** of the Dement and Kleitman (1957) study.
+            marks: 3
+            mi: 4
+          - q: Explain **one** weakness of the Dement and Kleitman (1957) study.
+            marks: 2
+            mi: 4
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 1c
+    pre: Bob is meeting his partner’s parents tomorrow. He says he is looking forward to meeting them. That night he has a dream that he is being chased by two scary creatures.
+    c:
+     -  p:
+          c:
+          - q: Using the psychoanalytic (Freudian) theory of dreams, explain Bob’s dream.
+            marks: 6
+            mi: 5
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 1d
+    c:
+     -  p:
+          c:
+          - q: |-
+              Describe Freud’s (1909) study of Little Hans. In your answer you should include:
+              * aim(s)
+              * method/procedure
+              * results.
+            marks: 4
+            mi: 5
+          - q: Explain **one** weakness of the Little Hans (1909) study.
+            marks: 2
+            mi: 6
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 2a
+    c:
+     -  p:
+          c:
+          - q: Describe what is meant by minority influence.
+            marks: 2
+            mi: 7
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 2b
+    c:
+     -  p:
+          c:
+          - q: Explain internalisation **and** informational social influence.
+            marks: 4
+            mi: 7
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 2c
+    c:
+     -  p:
+          c:
+          - q: |-
+              Describe Asch’s (1951) study into conformity. In your answer you should include:
+              * aim(s)
+              * method/procedure
+              * results.
+            marks: 4
+            mi: 8
+          - q: Explain **one** strength of the Asch study of conformity.
+            marks: 2
+            mi: 8
+          - q: Explain how the Mori and Arai (2010) study attempted to improve the Asch (1951) study.
+            marks: 5
+            mi: 9
+
+  - level: N5
+    subject: Psychology
+    paper: 0
+    year: 2022
+    qn: 2d
+    pre: Amy really dislikes cigarettes but all of her new friends smoke. When she meets three of them at the weekend they offer her a cigarette and she smokes it even though she thinks it is bad for her health.
+    c:
+     -  p:
+          c:
+          - q: Using your knowledge of conformity, explain Amy’s behaviour.
+            marks: 8
+            mi: 10

@@ -42,7 +42,7 @@
 	<div>
 		{data.level.toUpperCase()}
 		{data.subject}
-		{data.year} paper {data.paper}, question {data.qn}
+		{data.year} paper{data.paper ? " " + data.paper : ""}, question {data.qn}
 	</div>
 </div>
 
