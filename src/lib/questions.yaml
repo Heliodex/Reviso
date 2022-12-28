@@ -1,23 +1,45 @@
-#   - level: subject level eg. n4, N5, h, ah
-    # subject: subject name eg. Maths (non-calc), maths2, psychology, chemistry
-    # year: year
-    # qn: question number
-    # pre: question preamble eg. scenario, explanation of diagram
+#   - level: Subject level eg. n4, N5, h, ah
+    # subject: Subject name eg. Maths (non-calc), maths2, psychology, chemistry
+    # year: Year of paper
+    # qn: Question number
+    # pre: Question preamble eg. scenario, explanation of diagram
 
-    # c: content of question
-    #   - p: part of question
-        # pre: more preamble
-        # c: content of part
-          #  - q: |- 
-              # question, in markdown with KaTeX ($ or $$)
-              # can contain multiple lines
-              # can contain diagrams eg. ~ = fig
-              # can contain multiple diagrams eg. ~1 = fig1, ~2 = fig2
+    # c: Content of question
+    #   - p: Part of question eg. a, b, c
+        # pre: More preamble
+        # c: Content of part
+          #  - q: |- Question text
+              # In markdown with KaTeX ($ or $$)
+              # Can contain multiple lines
+              # Can contain diagrams or images eg. ~ = svg diagram, ¬ = png image
+              # Can contain multiple diagrams eg. ~1 = fig1, ~2 = fig2
 
-            # post: post question eg. "Give your answer to 2 significant figures.", "You may wish to use your data booklet to help you.", "**Take $\pi$ = 3.14.**" 
-            # marks: marks
-            # mi: page number for marking instructions
-            # answer: if multiple choice, no mi required
+            # post: Post question eg. "Give your answer to 2 significant figures.", "You may wish to use your data booklet to help you.", "**Take $\pi$ = 3.14.**" 
+            # marks: Number of marks
+            # mi: Page number for marking instructions
+            # answer: Answer if multiple choice, no mi required
+
+# Example of content with multiple parts, each with multiple questions:
+
+# c: 
+  # - p: # (part a)
+      # pre: these are addition questions
+      # c: 
+      #  - q: whats 1+1 # (a) (i)
+        #  marks: 1
+        #  mi: 1
+      #  - q: henceforth work out 2+2 # (a) (ii)
+        #  marks: 1
+        #  mi: 1
+  # - p: # (part b)
+      # pre: these are subtraction questions
+      # c: 
+      #  - q: whats 1-1 # (b) (i)
+        #  marks: 1
+        #  mi: 2
+      #  - q: henceforth work out 2-2 # (b) (ii)
+        #  marks: 1
+        #  mi: 2
 
 ######## N5 Maths (non-calc) ########
 

@@ -14,6 +14,7 @@ export const load = async ({ params }: { params: any }) => {
 		for (let i of result) {
 			if (!subjects.includes(i.subject)) subjects.push(i.subject)
 		}
+		subjects.sort()
 
 		return { subjects }
 	}
