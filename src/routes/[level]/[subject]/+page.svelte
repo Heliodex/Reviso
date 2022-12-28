@@ -25,7 +25,12 @@
 			else bits.push(txt2[i])
 		}
 
-		let txt3 = bits.join("").replace(/~(\d)/g, `<a class="img" href="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" /></a>`).replace(/~/g, `<a class="img"  href="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" /></a>`)
+		let txt3 = bits
+			.join("")
+			.replace(/~(\d)/g, `<a href="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.svg" /></a>`)
+			// .replace(/¬(\d)/g, `<a href="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.jpg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}-$1.jpg" /></a>`)
+			.replace(/~/g, `<a href="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" target="_blank"  rel="noreferrer"><img src="/${data.level}/${data.subject}/${data.year}/${data.qn}.svg" /></a>`)
+			.replace(/¬/g, `<a class="img2" href="/${data.level}/${data.subject}/${data.year}/${data.qn}.jpg" target="_blank"  rel="noreferrer"><img class="img2" src="/${data.level}/${data.subject}/${data.year}/${data.qn}.jpg" /></a>`)
 
 		return txt3
 	}
@@ -63,12 +68,16 @@
 {/if}
 
 <div id="buttons">
-	<a class="button" href="/{data.level}/{data.subject}?y={data.year}&q={data.qn}">
-		Question link</a>
+	<a class="button" href="/{data.level}/{data.subject}?y={data.year}&q={data.qn}"> Question link</a>
 	{#if $page.url.searchParams.has("y")}
 		<a class="button" href="/{data.level}/{data.subject}">New random question</a>
 	{:else}
-		<button on:click={invalidateAll}>
+		<button
+			on:click={() => {
+				invalidateAll()
+				markScheme = false
+			}}
+		>
 			New random question
 		</button>
 	{/if}

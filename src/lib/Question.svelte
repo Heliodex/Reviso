@@ -59,6 +59,12 @@
 		margin: 3rem auto
 		filter: invert(1)
 
+	:global(.img2) // jpgs that just give a bit of context
+		border-radius: 1.5rem
+		width: 50%
+		min-width: 20rem
+		filter: invert(0)
+
 	:global(table)
 		margin: auto
 		margin-top: 2.5rem

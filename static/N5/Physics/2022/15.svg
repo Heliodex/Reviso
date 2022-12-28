@@ -1,0 +1,30 @@
+<svg width="413" height="193" viewBox="0 0 413 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M60.5465 53.3729H54.2266" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M60.5465 22.2399H54.2266" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M412.544 146.759H59.4795" stroke="black" stroke-width="1.99999" stroke-miterlimit="10.433"/>
+<path d="M60.5461 84.5061H54.3062" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M60.5461 115.639H54.3062" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M275.438 146.759V152.986" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M168.372 146.759V152.986" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M60.5464 -3.61978e-05V146.759" stroke="black" stroke-width="1.99999" stroke-miterlimit="10.433"/>
+<path d="M382.518 146.759V152.986" stroke="black" stroke-width="0.933327" stroke-miterlimit="10.433"/>
+<path d="M382.518 -2.36034e-05V2.66663" stroke="black" stroke-width="0.666662" stroke-miterlimit="10.433"/>
+<path d="M382.518 5.38658V142.746" stroke="black" stroke-width="0.666662" stroke-miterlimit="10.433" stroke-dasharray="5.44 2.72"/>
+<path d="M382.518 144.092V146.759" stroke="black" stroke-width="0.666662" stroke-miterlimit="10.433"/>
+<path d="M61.3062 115.639L168.372 68.2796H328.984L382.517 22.2399" stroke="black" stroke-width="1.99999" stroke-miterlimit="10.433"/>
+<path d="M382.517 68.2796L328.984 84.5062H189.785L61.3062 115.639" stroke="black" stroke-width="2.66665" stroke-miterlimit="10.433"/>
+<path d="M124.359 68.2795L145.213 77.1729" stroke="black" stroke-width="0.666662" stroke-miterlimit="10.433"/>
+<path d="M155.999 92.5195L150.999 106.573" stroke="black" stroke-width="0.666662" stroke-miterlimit="10.433"/>
+<text transform="translate(0 132.268) rotate(-90)" fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="0" y="13.7565">temperature (&#xb0;C)</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="36.729" y="26.439">80</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="36.6704" y="57.6122">60</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="36.9199" y="88.9854">40</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="36.9199" y="120.172">20</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="49.1958" y="163.265">0</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="157.098" y="165.145">100</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="263.68" y="165.345">200</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="371.771" y="165.345">300</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="110.416" y="71.7988">X</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="145.879" y="118.625">Y</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Trebuchet MS" font-size="14.6666" letter-spacing="0em"><tspan x="211.512" y="188.971">time (s)</tspan></text>
+</svg>
