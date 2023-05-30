@@ -10,9 +10,9 @@ export const load = async ({ params }) => {
 		let result = questions.filter((v: any) => v.level == params.level)
 
 		let subjects: string[] = []
-		for (let i of result) {
+		for (let i of result)
 			if (!subjects.includes(i.subject)) subjects.push(i.subject)
-		}
+
 		subjects.sort()
 
 		return { subjects }

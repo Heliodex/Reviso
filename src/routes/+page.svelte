@@ -12,18 +12,36 @@
 
 <p>
 	Reviso is a site that provides random SQA past paper questions for revision.
-	It also provides marking schemes and answers for questions.<br />
-	<br />
-	At the moment, Reviso only supports a few questions from a few N5 subjects, but more are added regularly.<br />
-	<br />
-	Pick a level and subject and a question can be shown, reload the page to get a different question.
-	If you want to keep the question or send the link to someone, you can use the "Question link" button at the bottom of the page.<br />
+	It also provides marking schemes and answers for questions.
 	<br />
 	<br />
-	The <a href="https://dynamicmaths.co.uk/QuestionBank/" target="_blank" rel="noopener noreferrer">Dynamic Maths Question Bank</a>
-	is also a similarly great site for revision, but focusses only on mathematics.<br />
+	At the moment, Reviso only supports a few questions from a few N5 subjects, but
+	more are added regularly.
 	<br />
-	Reviso is open-source and its code is public domain. <a href="https://github.com/Heliodex/Reviso" target="_blank" rel="noopener noreferrer">See the source code!</a>
+	<br />
+	Pick a level and subject and a question can be shown, reload the page to get
+	a different question. If you want to keep the question or send the link to someone,
+	you can use the "Question link" button at the bottom of the page.
+	<br />
+	<br />
+	<br />
+	The
+	<a
+		href="https://dynamicmaths.co.uk/QuestionBank/"
+		target="_blank"
+		rel="noopener noreferrer">
+		Dynamic Maths Question Bank
+	</a>
+	is also a similarly great site for revision, but focusses only on mathematics.
+	<br />
+	<br />
+	Reviso is open-source and its code is public domain.
+	<a
+		href="https://github.com/Heliodex/Reviso"
+		target="_blank"
+		rel="noopener noreferrer">
+		See the source code!
+	</a>
 </p>
 
 <style lang="sass">

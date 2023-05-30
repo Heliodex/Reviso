@@ -27,7 +27,10 @@
 							Answer: {question.answer}
 						</h3>
 					{:else}
-						<img class="markScheme" src="/{data.level}/{data.subject}/{data.year}/mi{question.mi}.svg" alt="Mark scheme" />
+						<img
+							class="markScheme"
+							src="/{data.level}/{data.subject}/{data.year}/mi{question.mi}.svg"
+							alt="Mark scheme" />
 					{/if}
 				{/if}
 			</li>
@@ -48,7 +51,11 @@
 				Answer: {part.c[0].answer}
 			</h3>
 		{:else}
-			<img class="markScheme" src="/{data.level}/{data.subject}/{data.year}/mi{part.c[0].mi}.svg" alt="Mark scheme" />
+			<img
+				class="markScheme"
+				src="/{data.level}/{data.subject}/{data.year}/mi{part.c[0]
+					.mi}.svg"
+				alt="Mark scheme" />
 		{/if}
 	{/if}
 {/if}
