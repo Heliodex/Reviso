@@ -4,8 +4,7 @@ import { error } from "@sveltejs/kit"
 
 const questions = YAML.parse(questionsRaw)
 
-/** @type {import("@sveltejs/kit").PageServerLoad} */
-export const load = async ({ params, url, setHeaders }: { params: any; url: any; setHeaders: any }) => {
+export const load = async ({ params, url, setHeaders }) => {
 	params.level = params.level.toUpperCase()
 	if (["N4", "N5", "H", "AH"].includes(params.level)) {
 		let result = questions.filter((v: any) => v.level == params.level && v.subject == params.subject)
