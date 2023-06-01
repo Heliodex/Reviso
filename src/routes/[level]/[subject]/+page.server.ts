@@ -1,5 +1,6 @@
 import YAML from "yamljs"
 import questionsRaw from "$lib/questions.yaml?raw"
+// import questions from "$lib/questions.json"
 import { error } from "@sveltejs/kit"
 
 const questions: {
@@ -8,34 +9,44 @@ const questions: {
 	paper: number
 	year: number
 	qn: number
+	pre?: string
+	c: [
+		{
+			q: string
+			post?: string
+			marks: number
+			mi?: number
+			answer?: string
+		}
+	]
 }[] = YAML.parse(questionsRaw)
 
 export const load = async ({ params, url, setHeaders }) => {
 	params.level = params.level.toUpperCase()
-	if (["N4", "N5", "H", "AH"].includes(params.level)) {
-		let result = questions.filter(
-			v => v.level == params.level && v.subject == params.subject
-		)
+	if (!["N4", "N5", "H", "AH"].includes(params.level))
+		throw error(404, "Not found")
 
-		const reqYear = url.searchParams.get("y")
-		const reqQuestion = url.searchParams.get("q")
-		if (reqYear && reqQuestion) {
-			let res = result.filter(
-				(v: any) => v.year == reqYear && v.qn == reqQuestion
-			)[0]
-			if (res) return res
-			throw error(404, "Invalid question!")
-		}
+	const result = questions.filter(
+		v => v.level == params.level && v.subject == params.subject
+	)
 
-		let randQ = result[Math.floor(Math.random() * result.length)]
-
-		setHeaders({
-			path: `/${params.level}/${params.subject}?q=${result.indexOf(
-				randQ
-			)}`,
-		})
-
-		return randQ
+	const reqYear = parseInt(url.searchParams.get("y") || "")
+	const reqQuestion = parseInt(url.searchParams.get("q") || "")
+	if (reqYear && reqQuestion) {
+		const res = result.filter(
+			v => v.year == reqYear && v.qn == reqQuestion
+		)[0]
+		if (res) return res
+		throw error(404, "Invalid question!")
 	}
-	throw error(404, "Not found")
+
+	const randQ = result[Math.floor(Math.random() * result.length)]
+
+	setHeaders({
+		path: `/${params.level}/${params.subject}?q=${result.indexOf(randQ)}`,
+	})
+
+	type x = typeof randQ
+
+	return randQ
 }

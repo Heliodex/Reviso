@@ -1,23 +1,22 @@
-#   - level: Subject level eg. n4, N5, h, ah
-#     subject: Subject name eg. Maths (non-calc), maths2, psychology, chemistry
-#     year: Year of paper
-#     qn: Question number
-#     pre: Question preamble eg. scenario, explanation of diagram
+# - level: Subject level eg. n4, N5, h, ah
+#   subject: Subject name eg. Maths (non-calc), maths2, psychology, chemistry
+#   year: Year of paper
+#   qn: Question number
+#   pre: Question preamble eg. scenario, explanation of diagram
 
-#     c: Content of question
-#       - p: Part of question eg. a, b, c
-#         pre: More preamble
-#         c: Content of part
-#           - q: |- Question text
-#               In markdown with KaTeX ($ or $$)
-#               Can contain multiple lines
-#               Can contain diagrams or images eg. ~ = svg diagram, ¬ = png image
-#               Can contain multiple diagrams eg. ~1 = fig1, ~2 = fig2
+#   c: Content of question
+#     - pre: More preamble
+#       c: Content of part
+#         - q: |- # Question text
+#             In markdown with KaTeX ($ or $$)
+#             Can contain multiple lines
+#             Can contain diagrams or images eg. ~ = svg diagram, ¬ = png image
+#             Can contain multiple diagrams eg. ~1 = fig1, ~2 = fig2
 
-#             post: Post question eg. "Give your answer to 2 significant figures.", "You may wish to use your data booklet to help you.", "**Take $\pi$ = 3.14.**"
-#             marks: Number of marks
-#             mi: Page number for marking instructions
-#             answer: Answer if multiple choice, no mi required
+#           post: Post question eg. "Give your answer to 2 significant figures.", "You may wish to use your data booklet to help you.", "**Take $\pi$ = 3.14.**"
+#           marks: Number of marks
+#           mi: Page number for marking instructions
+#           answer: Answer if multiple choice, no mi required
 
 # Example of content with multiple parts, each with multiple questions:
 
@@ -27,24 +26,22 @@
 #   year: 2022
 #   qn: 1
 #   c:
-#       - p: # (part a)
-#             pre: these are addition questions
-#             c:
-#                 - q: whats 1+1 # (a) (i)
-#                   marks: 1
-#                   mi: 1
-#                 - q: henceforth work out 2+2 # (a) (ii)
-#                   marks: 1
-#                   mi: 1
-#       - p: # (part b)
-#             pre: these are subtraction questions
-#             c:
-#                 - q: whats 1-1 # (b) (i)
-#                   marks: 1
-#                   mi: 2
-#                 - q: henceforth work out 2-2 # (b) (ii)
-#                   marks: 1
-#             mi: 2
+#       - pre: these are addition questions
+#         c:
+#             - q: whats 1+1 # (a) (i)
+#               marks: 1
+#               mi: 1
+#             - q: henceforth work out 2+2 # (a) (ii)
+#               marks: 1
+#               mi: 1
+#       - pre: these are subtraction questions
+#         c:
+#             - q: whats 1-1 # (b) (i)
+#               marks: 1
+#               mi: 2
+#             - q: henceforth work out 2-2 # (b) (ii)
+#               marks: 1
+#         mi: 2
 
 ######## N5 Maths (non-calc) ########
 
@@ -54,12 +51,10 @@
   year: 2022
   qn: 1
   c:
-      - p:
-            c:
-                - q: Evaluate $$\frac{2}{3} \left(\frac{1}{5}+\frac{3}{4}\right)$$
-                  post: Give your answer in its simplest form.
-                  marks: 2
-                  mi: 5
+      - q: Evaluate $$\frac{2}{3} \left(\frac{1}{5}+\frac{3}{4}\right)$$
+        post: Give your answer in its simplest form.
+        marks: 2
+        mi: 5
 
 - level: N5
   subject: Maths (non-calc)
@@ -67,11 +62,31 @@
   year: 2022
   qn: 2
   c:
-      - p:
-            c:
-                - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
-                  marks: 2
-                  mi: 6
+      - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+        marks: 2
+        mi: 6
+      - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+        marks: 2
+        mi: 6
+      - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+        marks: 2
+        mi: 6
+      - pre: test
+        c:
+            - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+              marks: 2
+              mi: 6
+            - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+              marks: 2
+              mi: 6
+            - pre: test
+              c:
+                  - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+                    marks: 2
+                    mi: 6
+                  - q: Given that $f(x)=x^3-2$, evaluate $f(-3)$.
+                    marks: 2
+                    mi: 6
 
 - level: N5
   subject: Maths (non-calc)
@@ -82,12 +97,10 @@
       The diagram below shows a cone with diameter 20 centimetres and height 60 centimetres.
       ~
   c:
-      - p:
-            c:
-                - q: Calculate the volume of the cone.
-                  post: "**Take $\\pi$ = 3.14.**"
-                  marks: 2
-                  mi: 6
+      - q: Calculate the volume of the cone.
+        post: "**Take $\\pi$ = 3.14.**"
+        marks: 2
+        mi: 6
 
 - level: N5
   subject: Maths (non-calc)
@@ -101,11 +114,9 @@
       CD is a diameter of the circle.
       Angle EOD is 68°.
   c:
-      - p:
-            c:
-                - q: Calculate the size of angle ACE.
-                  marks: 3
-                  mi: 7
+      - q: Calculate the size of angle ACE.
+        marks: 3
+        mi: 7
 
 - level: N5
   subject: Maths (non-calc)
@@ -113,16 +124,12 @@
   year: 2022
   qn: 5
   c:
-      - p:
-            c:
-                - q: Express $x^2+8x+15$ in the form $(x+a)^2+b$.
-                  marks: 2
-                  mi: 8
-      - p:
-            c:
-                - q: Hence, or otherwise, state the coordinates of the turning point of the graph of $f(x)=x^2+8x+15$.
-                  marks: 1
-                  mi: 8
+      - q: Express $x^2+8x+15$ in the form $(x+a)^2+b$.
+        marks: 2
+        mi: 8
+      - q: Hence, or otherwise, state the coordinates of the turning point of the graph of $f(x)=x^2+8x+15$.
+        marks: 1
+        mi: 8
 
 - level: N5
   subject: Maths (non-calc)
@@ -130,12 +137,10 @@
   year: 2022
   qn: 6
   c:
-      - p:
-            c:
-                - q: Find the equation of the line passing through the points (−3,−1) and (−5,7).
-                  post: Give the equation in its simplest form.
-                  marks: 3
-                  mi: 9
+      - q: Find the equation of the line passing through the points (−3,−1) and (−5,7).
+        post: Give the equation in its simplest form.
+        marks: 3
+        mi: 9
 
 - level: N5
   subject: Maths (non-calc)
@@ -143,11 +148,9 @@
   year: 2022
   qn: 7
   c:
-      - p:
-            c:
-                - q: Change the subject of the formula $D=\cfrac{B+4}{C^2}$ to B.
-                  marks: 2
-                  mi: 10
+      - q: Change the subject of the formula $D=\cfrac{B+4}{C^2}$ to B.
+        marks: 2
+        mi: 10
 
 - level: N5
   subject: Maths (non-calc)
@@ -158,16 +161,12 @@
       Part of the graph of $y=a\sin bx\degree$ is shown in the diagram.
       ~
   c:
-      - p:
-            c:
-                - q: State the value of $a$.
-                  marks: 1
-                  mi: 10
-      - p:
-            c:
-                - q: State the value of $b$.
-                  marks: 1
-                  mi: 10
+      - q: State the value of $a$.
+        marks: 1
+        mi: 10
+      - q: State the value of $b$.
+        marks: 1
+        mi: 10
 
 - level: N5
   subject: Maths (non-calc)
@@ -181,12 +180,10 @@
       * BC = 3 centimetres
       * AC = 5 centimetres
   c:
-      - p:
-            c:
-                - q: Calculate the value of $cos$ B.
-                  post: Give your answer in its simplest form.
-                  marks: 2
-                  mi: 11
+      - q: Calculate the value of $cos$ B.
+        post: Give your answer in its simplest form.
+        marks: 2
+        mi: 11
 
 - level: N5
   subject: Maths (non-calc)
@@ -197,11 +194,9 @@
       Tommy buys flower seeds from a website.
       Tommy is given a 30% discount. He pays £16.10 for the seeds.
   c:
-      - p:
-            c:
-                - q: Calculate the cost of the flower seeds without the discount.
-                  marks: 3
-                  mi: 12
+      - q: Calculate the cost of the flower seeds without the discount.
+        marks: 3
+        mi: 12
 
 - level: N5
   subject: Maths (non-calc)
@@ -209,12 +204,10 @@
   year: 2022
   qn: 11
   c:
-      - p:
-            c:
-                - q: Simplify $\left(m^{-2}\right)^4\times m^{-5}$.
-                  post: Give your answer with a **positive** power.
-                  marks: 3
-                  mi: 13
+      - q: Simplify $\left(m^{-2}\right)^4\times m^{-5}$.
+        post: Give your answer with a **positive** power.
+        marks: 3
+        mi: 13
 
 - level: N5
   subject: Maths (non-calc)
@@ -222,11 +215,9 @@
   year: 2022
   qn: 12
   c:
-      - p:
-            c:
-                - q: Express $\cfrac{4}{x+2}\div \cfrac{5}{(x+2)^2},x\ne -2$ as a single fraction in its simplest form.
-                  marks: 2
-                  mi: 14
+      - q: Express $\cfrac{4}{x+2}\div \cfrac{5}{(x+2)^2},x\ne -2$ as a single fraction in its simplest form.
+        marks: 2
+        mi: 14
 
 - level: N5
   subject: Maths (non-calc)
@@ -234,11 +225,9 @@
   year: 2022
   qn: 13
   c:
-      - p:
-            c:
-                - q: Expand and simplify $\sqrt{10}\left(\sqrt{10}-\sqrt{2}\right)+8\sqrt{5}$.
-                  marks: 3
-                  mi: 14
+      - q: Expand and simplify $\sqrt{10}\left(\sqrt{10}-\sqrt{2}\right)+8\sqrt{5}$.
+        marks: 3
+        mi: 14
 
 - level: N5
   subject: Maths (non-calc)
@@ -246,12 +235,10 @@
   year: 2022
   qn: 14
   c:
-      - p:
-            c:
-                - q: Sketch the graph of $y=(x+1)(x-3)$.
-                  post: On your sketch, show clearly the points of intersection with the $x$‑axis and the $y$‑axis, and the coordinates of the turning point.
-                  marks: 3
-                  mi: 15
+      - q: Sketch the graph of $y=(x+1)(x-3)$.
+        post: On your sketch, show clearly the points of intersection with the $x$‑axis and the $y$‑axis, and the coordinates of the turning point.
+        marks: 3
+        mi: 15
 
 - level: N5
   subject: Maths (non-calc)
@@ -262,16 +249,12 @@
       A triangle and rectangle are shown in the diagram.
       ~
   c:
-      - p:
-            c:
-                - q: Find an expression for the area of the triangle.
-                  marks: 1
-                  mi: 16
-      - p:
-            c:
-                - q: Given that the area of the triangle is equal to the area of the rectangle, find algebraically the value of $x$.
-                  marks: 4
-                  mi: 17
+      - q: Find an expression for the area of the triangle.
+        marks: 1
+        mi: 16
+      - q: Given that the area of the triangle is equal to the area of the rectangle, find algebraically the value of $x$.
+        marks: 4
+        mi: 17
 
 ######## N5 Chemistry MCQs ########
 
@@ -281,18 +264,16 @@
   year: 2022
   qn: 1
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following is the atomic number of a metal?
-                      <ol type="A">
-                        <li>1</li>
-                        <li>33</li>
-                        <li>45</li>
-                        <li>86</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which of the following is the atomic number of a metal?
+            <ol type="A">
+              <li>1</li>
+              <li>33</li>
+              <li>45</li>
+              <li>86</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -300,18 +281,16 @@
   year: 2022
   qn: 2
   c:
-      - p:
-            c:
-                - q: |-
-                      An atom is neutral because:
-                      <ol type="A">
-                        <li>the number of protons equals the number of neutrons</li>
-                        <li>the number of electrons equals the number of protons</li>
-                        <li>the number of electrons equals the number of protons plus neutrons</li>
-                        <li>the number of neutrons equals the number of electrons plus protons.</li>
-                      </ol>
-                  marks: 1
-                  answer: B
+      - q: |-
+            An atom is neutral because:
+            <ol type="A">
+              <li>the number of protons equals the number of neutrons</li>
+              <li>the number of electrons equals the number of protons</li>
+              <li>the number of electrons equals the number of protons plus neutrons</li>
+              <li>the number of neutrons equals the number of electrons plus protons.</li>
+            </ol>
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -319,18 +298,16 @@
   year: 2022
   qn: 3
   c:
-      - p:
-            c:
-                - q: |-
-                      When liquid water changes to steam:
-                      <ol type="A">
-                        <li>weak forces of attraction between the water molecules are broken</li>
-                        <li>strong forces of attraction between the water molecules are broken</li>
-                        <li>weak forces of attraction between the atoms in the water molecules are broken</li>
-                        <li>strong forces of attraction between the atoms in the water molecules are broken.</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            When liquid water changes to steam:
+            <ol type="A">
+              <li>weak forces of attraction between the water molecules are broken</li>
+              <li>strong forces of attraction between the water molecules are broken</li>
+              <li>weak forces of attraction between the atoms in the water molecules are broken</li>
+              <li>strong forces of attraction between the atoms in the water molecules are broken.</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -338,18 +315,16 @@
   year: 2022
   qn: 4
   c:
-      - p:
-            c:
-                - q: |-
-                      Which line in the table shows how the concentration of a solution changes when more solute or solvent is added?
-                      <br>|Adding solute|Adding solvent
-                      :-:|:-:|:-:
-                      A|concentration decreases|concentration increases
-                      B|concentration decreases|concentration decreases
-                      C|concentration increases|concentration decreases
-                      D|concentration increases|concentration increases
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which line in the table shows how the concentration of a solution changes when more solute or solvent is added?
+            <br>|Adding solute|Adding solvent
+            :-:|:-:|:-:
+            A|concentration decreases|concentration increases
+            B|concentration decreases|concentration decreases
+            C|concentration increases|concentration decreases
+            D|concentration increases|concentration increases
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -357,13 +332,11 @@
   year: 2022
   qn: 5
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following structures would be described as angular?
-                      ~
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which of the following structures would be described as angular?
+            ~
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -382,18 +355,16 @@
       N|3.0
       O|3.4
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following bonds would be the most polar?
-                      <ol type="A">
-                        <li>O-H</li>
-                        <li>N-H</li>
-                        <li>C-H</li>
-                        <li>C-O</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which of the following bonds would be the most polar?
+            <ol type="A">
+              <li>O-H</li>
+              <li>N-H</li>
+              <li>C-H</li>
+              <li>C-O</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -401,18 +372,16 @@
   year: 2022
   qn: 7
   c:
-      - p:
-            c:
-                - q: |-
-                      Which line in the table shows what would be observed during the electrolysis of copper chloride, using a d.c. supply?
-                      <br>|At the positive electrode|At the negative electrode
-                      :-:|:-:|:-:
-                      A|gas forms|solid forms
-                      B|gas forms|gas forms
-                      C|solid forms|gas forms
-                      D|solid forms|solid forms
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which line in the table shows what would be observed during the electrolysis of copper chloride, using a d.c. supply?
+            <br>|At the positive electrode|At the negative electrode
+            :-:|:-:|:-:
+            A|gas forms|solid forms
+            B|gas forms|gas forms
+            C|solid forms|gas forms
+            D|solid forms|solid forms
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -420,18 +389,16 @@
   year: 2022
   qn: 8
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following compounds is a salt?
-                      <ol type="A">
-                        <li>Calcium oxide</li>
-                        <li>Hydrogen nitrate</li>
-                        <li>Sodium hydroxide</li>
-                        <li>Potassium ethanoate</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which of the following compounds is a salt?
+            <ol type="A">
+              <li>Calcium oxide</li>
+              <li>Hydrogen nitrate</li>
+              <li>Sodium hydroxide</li>
+              <li>Potassium ethanoate</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Chemistry
@@ -439,18 +406,16 @@
   year: 2022
   qn: 9
   c:
-      - p:
-            c:
-                - q: |-
-                      The pH of the solution formed when ammonia is bubbled into water is most likely to be:
-                      <ol type="A">
-                        <li>3</li>
-                        <li>5</li>
-                        <li>7</li>
-                        <li>9</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            The pH of the solution formed when ammonia is bubbled into water is most likely to be:
+            <ol type="A">
+              <li>3</li>
+              <li>5</li>
+              <li>7</li>
+              <li>9</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Chemistry
@@ -462,18 +427,16 @@
       ~
       When gas **X** was burned, a colourless liquid collected in the cooled test tube but there was no change in the limewater.
   c:
-      - p:
-            c:
-                - q: |-
-                      Gas **X** could be:
-                      <ol type="A">
-                        <li>methane</li>
-                        <li>carbon monoxide</li>
-                        <li>hydrogen</li>
-                        <li>ethane.</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Gas **X** could be:
+            <ol type="A">
+              <li>methane</li>
+              <li>carbon monoxide</li>
+              <li>hydrogen</li>
+              <li>ethane.</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -481,14 +444,12 @@
   year: 2022
   qn: 11
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following compounds has the highest boiling point?
-                      ~
-                  post: You may wish to use the data booklet to help you.
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which of the following compounds has the highest boiling point?
+            ~
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -496,13 +457,11 @@
   year: 2022
   qn: 12
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following molecules will decolourise bromine solution and also form an acidic solution when added to water?
-                      ~
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which of the following molecules will decolourise bromine solution and also form an acidic solution when added to water?
+            ~
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Chemistry
@@ -513,18 +472,16 @@
       The first three members of the alkanones are
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      The general formula for the alkanones is:
-                      <ol type="A">
-                        <li>C<sub>n</sub>H<sub>2n-2</sub>O</li>
-                        <li>C<sub>n</sub>H<sub>2n</sub>O</li>
-                        <li>C<sub>n</sub>H<sub>2n+1</sub>O</li>
-                        <li>C<sub>n</sub>H<sub>2n+2</sub>O</li>
-                      </ol>
-                  marks: 1
-                  answer: B
+      - q: |-
+            The general formula for the alkanones is:
+            <ol type="A">
+              <li>C<sub>n</sub>H<sub>2n-2</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n+1</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n+2</sub>O</li>
+            </ol>
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -532,18 +489,16 @@
   year: 2022
   qn: 14
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following could be the formula mass of a cycloalkane?
-                      <ol type="A">
-                        <li>40</li>
-                        <li>42</li>
-                        <li>54</li>
-                        <li>58</li>
-                      </ol>
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which of the following could be the formula mass of a cycloalkane?
+            <ol type="A">
+              <li>40</li>
+              <li>42</li>
+              <li>54</li>
+              <li>58</li>
+            </ol>
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -551,18 +506,16 @@
   year: 2022
   qn: 15
   c:
-      - p:
-            c:
-                - q: |-
-                      Metallic bonding is a force of attraction between:
-                      <ol type="A">
-                        <li>positive ions and delocalised electrons</li>
-                        <li>negative ions and delocalised electrons</li>
-                        <li>negative ions and positive ions</li>
-                        <li>a shared pair of electrons and two nuclei.</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            Metallic bonding is a force of attraction between:
+            <ol type="A">
+              <li>positive ions and delocalised electrons</li>
+              <li>negative ions and delocalised electrons</li>
+              <li>negative ions and positive ions</li>
+              <li>a shared pair of electrons and two nuclei.</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -571,18 +524,16 @@
   qn: 16
   pre: Metals used to make aircraft have a density of less than 3 g cm−3 and have to withstand temperatures up to 600 °C.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which line in the table gives the correct data for a metal used to make aircraft?
-                      <br>|Melting point (°C)|Density (g cm<sup>−3</sup>)
-                      :-:|:-:|:-:
-                      A|98|0.97
-                      B|660|2.70
-                      C|1854|6.52
-                      D|1085|8.96
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which line in the table gives the correct data for a metal used to make aircraft?
+            <br>|Melting point (°C)|Density (g cm<sup>−3</sup>)
+            :-:|:-:|:-:
+            A|98|0.97
+            B|660|2.70
+            C|1854|6.52
+            D|1085|8.96
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -590,19 +541,17 @@
   year: 2022
   qn: 17
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of these metals can only be extracted from its ore by electrolysis and forms an oxide that is insoluble in water?
-                      <ol type="A">
-                        <li>Aluminium</li>
-                        <li>Calcium</li>
-                        <li>Copper</li>
-                        <li>Lead</li>
-                      </ol>
-                  post: You may wish to use the data booklet to help you.
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which of these metals can only be extracted from its ore by electrolysis and forms an oxide that is insoluble in water?
+            <ol type="A">
+              <li>Aluminium</li>
+              <li>Calcium</li>
+              <li>Copper</li>
+              <li>Lead</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -612,19 +561,17 @@
   pre: |-
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      Which statement correctly describes the electron flow in the cell?
-                      <ol type="A">
-                        <li>Through the electrolyte from aluminium to nickel.</li>
-                        <li>Through the electrolyte from nickel to aluminium.</li>
-                        <li>Through the connecting wire from nickel to aluminium.</li>
-                        <li>Through the connecting wire from aluminium to nickel.</li>
-                      </ol>
-                  post: You may wish to use the data booklet to help you.
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which statement correctly describes the electron flow in the cell?
+            <ol type="A">
+              <li>Through the electrolyte from aluminium to nickel.</li>
+              <li>Through the electrolyte from nickel to aluminium.</li>
+              <li>Through the connecting wire from nickel to aluminium.</li>
+              <li>Through the connecting wire from aluminium to nickel.</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Chemistry
@@ -632,19 +579,17 @@
   year: 2022
   qn: 19
   c:
-      - p:
-            c:
-                - q: |-
-                      Which metal, when paired with magnesium in a cell, will produce the highest voltage?
-                      <ol type="A">
-                        <li>Iron</li>
-                        <li>Lead</li>
-                        <li>Tin</li>
-                        <li>Zinc</li>
-                      </ol>
-                  post: You may wish to use the data booklet to help you.
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which metal, when paired with magnesium in a cell, will produce the highest voltage?
+            <ol type="A">
+              <li>Iron</li>
+              <li>Lead</li>
+              <li>Tin</li>
+              <li>Zinc</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -659,19 +604,17 @@
 
       Beaker **B**: SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup>
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following equations is the overall redox reaction in the cell?
-                      <ol type="A">
-                        <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup></li>
-                        <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ)</li>
-                        <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → 2Br<sup>−</sup> (aq) + SO<sub>4</sub></sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq)</li>
-                        <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq)</li>
-                      </ol>
-                  post: You may wish to use the data booklet to help you.
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which of the following equations is the overall redox reaction in the cell?
+            <ol type="A">
+              <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup></li>
+              <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ)</li>
+              <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → 2Br<sup>−</sup> (aq) + SO<sub>4</sub></sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq)</li>
+              <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq)</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -682,13 +625,11 @@
       Polymethylmethacrylate is a polymer used in the manufacture of aircraft windows. A section of the polymer chain is drawn below.
       ~1
   c:
-      - p:
-            c:
-                - q: |-
-                      The monomer used to make this polymer is:
-                      ~2
-                  marks: 1
-                  answer: A
+      - q: |-
+            The monomer used to make this polymer is:
+            ~2
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Chemistry
@@ -696,18 +637,16 @@
   year: 2022
   qn: 22
   c:
-      - p:
-            c:
-                - q: |-
-                      Which line in the table is correct for the Ostwald process?
-                      <br>|Product|Catalyst
-                      :-:|:-:|:-:
-                      A|HNO<sub>3</sub>|iron
-                      B|HNO<sub>3</sub>|platinum
-                      C|NH<sub>3</sub>|iron
-                      D|NH<sub>3</sub>|platinum
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which line in the table is correct for the Ostwald process?
+            <br>|Product|Catalyst
+            :-:|:-:|:-:
+            A|HNO<sub>3</sub>|iron
+            B|HNO<sub>3</sub>|platinum
+            C|NH<sub>3</sub>|iron
+            D|NH<sub>3</sub>|platinum
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Chemistry
@@ -716,18 +655,16 @@
   qn: 23
   pre: Radon-222 is a radioisotope present in the Earth’s atmosphere. Plants can absorb radon-222 through their roots.
   c:
-      - p:
-            c:
-                - q: |-
-                      Compared with radon-222 in the atmosphere, the half-life of the radon-222 in the plant cells will be:
-                      <ol type="A">
-                        <li>shorter</li>
-                        <li>longer</li>
-                        <li>the same</li>
-                        <li>dependent on the size of the plant</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Compared with radon-222 in the atmosphere, the half-life of the radon-222 in the plant cells will be:
+            <ol type="A">
+              <li>shorter</li>
+              <li>longer</li>
+              <li>the same</li>
+              <li>dependent on the size of the plant</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Chemistry
@@ -736,18 +673,16 @@
   qn: 24
   pre: A radioisotope is used to monitor blood flow around the body. In order to prevent damage to the body the radiation emitted must be able to escape through the skin.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which line in the table describes the type of radiation emitted and half-life that would make a radioisotope suitable for this use?
-                      <br>|Type of radiation emitted|Half-life
-                      :-:|:-:|:-:
-                      A|alpha|long
-                      B|beta|long
-                      C|alpha|short
-                      D|beta|short
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which line in the table describes the type of radiation emitted and half-life that would make a radioisotope suitable for this use?
+            <br>|Type of radiation emitted|Half-life
+            :-:|:-:|:-:
+            A|alpha|long
+            B|beta|long
+            C|alpha|short
+            D|beta|short
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Chemistry
@@ -756,18 +691,16 @@
   qn: 25
   pre: A student measured 25 cm<sup>3</sup> of sodium hydroxide for a titration experiment using a 100 cm<sup>3</sup> measuring cylinder. Their teacher suggested that there was a more accurate piece of apparatus to measure this volume.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which piece of apparatus should the student have used to more accurately measure out the 25 cm<sup>3</sup> volume of sodium hydroxide?
-                      <ol type="A">
-                        <li>100 cm<sup>3</sup> beaker</li>
-                        <li>25 cm<sup>3</sup> measuring cylinder</li>
-                        <li>25 cm<sup>3</sup> pipette</li>
-                        <li>100 cm<sup>3</sup> conical flask</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which piece of apparatus should the student have used to more accurately measure out the 25 cm<sup>3</sup> volume of sodium hydroxide?
+            <ol type="A">
+              <li>100 cm<sup>3</sup> beaker</li>
+              <li>25 cm<sup>3</sup> measuring cylinder</li>
+              <li>25 cm<sup>3</sup> pipette</li>
+              <li>100 cm<sup>3</sup> conical flask</li>
+            </ol>
+        marks: 1
+        answer: C
 
 ######## N5 Psychology ########
 
@@ -777,14 +710,12 @@
   year: 2022
   qn: 1a
   c:
-      - p:
-            c:
-                - q: Describe the Restoration Theory of Sleep (Oswald, 1966).
-                  marks: 4
-                  mi: 3
-                - q: Explain **one** strength and **one** weakness of the Restoration Theory of Sleep (Oswald, 1966).
-                  marks: 4
-                  mi: 3
+      - q: Describe the Restoration Theory of Sleep (Oswald, 1966).
+        marks: 4
+        mi: 3
+      - q: Explain **one** strength and **one** weakness of the Restoration Theory of Sleep (Oswald, 1966).
+        marks: 4
+        mi: 3
 
 - level: N5
   subject: Psychology
@@ -792,14 +723,12 @@
   year: 2022
   qn: 1b
   c:
-      - p:
-            c:
-                - q: Describe the **aim(s)** and **results** of the Dement and Kleitman (1957) study.
-                  marks: 3
-                  mi: 4
-                - q: Explain **one** weakness of the Dement and Kleitman (1957) study.
-                  marks: 2
-                  mi: 4
+      - q: Describe the **aim(s)** and **results** of the Dement and Kleitman (1957) study.
+        marks: 3
+        mi: 4
+      - q: Explain **one** weakness of the Dement and Kleitman (1957) study.
+        marks: 2
+        mi: 4
 
 - level: N5
   subject: Psychology
@@ -808,11 +737,9 @@
   qn: 1c
   pre: Bob is meeting his partner’s parents tomorrow. He says he is looking forward to meeting them. That night he has a dream that he is being chased by two scary creatures.
   c:
-      - p:
-            c:
-                - q: Using the psychoanalytic (Freudian) theory of dreams, explain Bob’s dream.
-                  marks: 6
-                  mi: 5
+      - q: Using the psychoanalytic (Freudian) theory of dreams, explain Bob’s dream.
+        marks: 6
+        mi: 5
 
 - level: N5
   subject: Psychology
@@ -820,18 +747,16 @@
   year: 2022
   qn: 1d
   c:
-      - p:
-            c:
-                - q: |-
-                      Describe Freud’s (1909) study of Little Hans. In your answer you should include:
-                      * aim(s)
-                      * method/procedure
-                      * results.
-                  marks: 4
-                  mi: 5
-                - q: Explain **one** weakness of the Little Hans (1909) study.
-                  marks: 2
-                  mi: 6
+      - q: |-
+            Describe Freud’s (1909) study of Little Hans. In your answer you should include:
+            * aim(s)
+            * method/procedure
+            * results.
+        marks: 4
+        mi: 5
+      - q: Explain **one** weakness of the Little Hans (1909) study.
+        marks: 2
+        mi: 6
 
 - level: N5
   subject: Psychology
@@ -839,11 +764,9 @@
   year: 2022
   qn: 2a
   c:
-      - p:
-            c:
-                - q: Describe what is meant by minority influence.
-                  marks: 2
-                  mi: 7
+      - q: Describe what is meant by minority influence.
+        marks: 2
+        mi: 7
 
 - level: N5
   subject: Psychology
@@ -851,11 +774,9 @@
   year: 2022
   qn: 2b
   c:
-      - p:
-            c:
-                - q: Explain internalisation **and** informational social influence.
-                  marks: 4
-                  mi: 7
+      - q: Explain internalisation **and** informational social influence.
+        marks: 4
+        mi: 7
 
 - level: N5
   subject: Psychology
@@ -863,21 +784,19 @@
   year: 2022
   qn: 2c
   c:
-      - p:
-            c:
-                - q: |-
-                      Describe Asch’s (1951) study into conformity. In your answer you should include:
-                      * aim(s)
-                      * method/procedure
-                      * results.
-                  marks: 4
-                  mi: 8
-                - q: Explain **one** strength of the Asch study of conformity.
-                  marks: 2
-                  mi: 8
-                - q: Explain how the Mori and Arai (2010) study attempted to improve the Asch (1951) study.
-                  marks: 5
-                  mi: 9
+      - q: |-
+            Describe Asch’s (1951) study into conformity. In your answer you should include:
+            * aim(s)
+            * method/procedure
+            * results.
+        marks: 4
+        mi: 8
+      - q: Explain **one** strength of the Asch study of conformity.
+        marks: 2
+        mi: 8
+      - q: Explain how the Mori and Arai (2010) study attempted to improve the Asch (1951) study.
+        marks: 5
+        mi: 9
 
 - level: N5
   subject: Psychology
@@ -886,11 +805,9 @@
   qn: 2d
   pre: Amy really dislikes cigarettes but all of her new friends smoke. When she meets three of them at the weekend they offer her a cigarette and she smokes it even though she thinks it is bad for her health.
   c:
-      - p:
-            c:
-                - q: Using your knowledge of conformity, explain Amy’s behaviour.
-                  marks: 8
-                  mi: 10
+      - q: Using your knowledge of conformity, explain Amy’s behaviour.
+        marks: 8
+        mi: 10
 
 ######## N5 Physics MCQs ########
 
@@ -900,19 +817,17 @@
   year: 2022
   qn: 1
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following contains one scalar quantity and one vector quantity?
-                      <ol type="A">
-                        <li>acceleration; displacement</li>
-                        <li>kinetic energy; speed</li>
-                        <li>velocity; weight</li>
-                        <li>potential energy; work</li>
-                        <li>distance; force</li>
-                      </ol>
-                  marks: 1
-                  answer: E
+      - q: |-
+            Which of the following contains one scalar quantity and one vector quantity?
+            <ol type="A">
+              <li>acceleration; displacement</li>
+              <li>kinetic energy; speed</li>
+              <li>velocity; weight</li>
+              <li>potential energy; work</li>
+              <li>distance; force</li>
+            </ol>
+        marks: 1
+        answer: E
 
 - level: N5
   subject: Physics
@@ -924,19 +839,17 @@
       The car is released and travels with a constant acceleration down the slope.
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table could show the speed of the toy car at P, the speed of the toy car at Q, and the average speed of the car between P and Q?
-                      <br>|Speed at P<br>(ms<sup>−1</sup>)|Speed at Q<br>(ms<sup>−1</sup>)|Average speed<br>between P and Q<br>(ms<sup>−1</sup>)
-                      :-:|:-:|:-:|:-:
-                      A|0|2|1
-                      B|1|1|1
-                      C|1|3|2
-                      D|2|3|2
-                      E|2|3|4
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which row in the table could show the speed of the toy car at P, the speed of the toy car at Q, and the average speed of the car between P and Q?
+            <br>|Speed at P<br>(ms<sup>−1</sup>)|Speed at Q<br>(ms<sup>−1</sup>)|Average speed<br>between P and Q<br>(ms<sup>−1</sup>)
+            :-:|:-:|:-:|:-:
+            A|0|2|1
+            B|1|1|1
+            C|1|3|2
+            D|2|3|2
+            E|2|3|4
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Physics
@@ -947,19 +860,17 @@
       The graph of speed $v$ against time $t$ represents the motion of a cyclist over a 20 second period.
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      The distance travelled by the cyclist in the 20 second period is:
-                      <ol type="A">
-                        <li>56 m</li>
-                        <li>144 m</li>
-                        <li>160 m</li>
-                        <li>176 m</li>
-                        <li>200 m.</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            The distance travelled by the cyclist in the 20 second period is:
+            <ol type="A">
+              <li>56 m</li>
+              <li>144 m</li>
+              <li>160 m</li>
+              <li>176 m</li>
+              <li>200 m.</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -971,19 +882,17 @@
       ~
       Air is pumped into the rocket until the pressure of the air inside is large enough for the water rocket to launch upwards.
   c:
-      - p:
-            c:
-                - q: |-
-                      The rocket launches because:
-                      <ol type="A">
-                        <li>the rocket pushes down on the ground and the ground provides a reaction force pushing up on the rocket</li>
-                        <li>the rocket pushes down on the water and the water provides a reaction force pushing up on the rocket</li>
-                        <li>the water pushes down on the ground and the ground provides a reaction force pushing up on the water</li>
-                        <li>the force applied by the water on the ground is greater than the weight of the rocket producing an unbalanced upward force</li>
-                        <li>the weight of the rocket decreases as water is pushed out of the rocket producing an unbalanced upward force.</li>
-                      </ol>
-                  marks: 1
-                  answer: B
+      - q: |-
+            The rocket launches because:
+            <ol type="A">
+              <li>the rocket pushes down on the ground and the ground provides a reaction force pushing up on the rocket</li>
+              <li>the rocket pushes down on the water and the water provides a reaction force pushing up on the rocket</li>
+              <li>the water pushes down on the ground and the ground provides a reaction force pushing up on the water</li>
+              <li>the force applied by the water on the ground is greater than the weight of the rocket producing an unbalanced upward force</li>
+              <li>the weight of the rocket decreases as water is pushed out of the rocket producing an unbalanced upward force.</li>
+            </ol>
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Physics
@@ -994,19 +903,17 @@
       A ball of mass 0.25 kg is released from a height of 6.0 m above the ground.
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table shows the change in gravitational potential energy and the kinetic energy of the ball when it is at a height of 4.0 m above the ground?
-                      <br>|Change in gravitational<br>potential energy (J)|Kinetic energy (J)
-                      :-:|:-:|:-:
-                      A|14.7|0.0
-                      B|4.9|4.9
-                      C|9.8|4.9
-                      D|4.9|9.8
-                      E|14.7|14.7
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which row in the table shows the change in gravitational potential energy and the kinetic energy of the ball when it is at a height of 4.0 m above the ground?
+            <br>|Change in gravitational<br>potential energy (J)|Kinetic energy (J)
+            :-:|:-:|:-:
+            A|14.7|0.0
+            B|4.9|4.9
+            C|9.8|4.9
+            D|4.9|9.8
+            E|14.7|14.7
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Physics
@@ -1022,19 +929,17 @@
         <li>The forces acting on the astronauts are balanced.</li>
       </ol>
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of these statements is/are correct?
-                      <ol type="A">
-                        <li>I only</li>
-                        <li>II only</li>
-                        <li>III only</li>
-                        <li>I and II only</li>
-                        <li>II and III only</li>
-                      </ol>
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>II and III only</li>
+            </ol>
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Physics
@@ -1042,19 +947,17 @@
   year: 2022
   qn: 7
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following lists the distances from longest to shortest?
-                      <ol type="A">
-                        <li>radius of Earth; radius of orbit of Moon; diameter of galaxy</li>
-                        <li>radius of orbit of Moon; radius of Earth; diameter of galaxy</li>
-                        <li>diameter of galaxy; radius of orbit of Moon; radius of Earth</li>
-                        <li>diameter of galaxy; radius of Earth; radius of orbit of Moon</li>
-                        <li>radius of orbit of Moon; diameter of galaxy; radius of Earth</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which of the following lists the distances from longest to shortest?
+            <ol type="A">
+              <li>radius of Earth; radius of orbit of Moon; diameter of galaxy</li>
+              <li>radius of orbit of Moon; radius of Earth; diameter of galaxy</li>
+              <li>diameter of galaxy; radius of orbit of Moon; radius of Earth</li>
+              <li>diameter of galaxy; radius of Earth; radius of orbit of Moon</li>
+              <li>radius of orbit of Moon; diameter of galaxy; radius of Earth</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Physics
@@ -1066,19 +969,17 @@
       ~
       Satellite Z is a geostationary satellite.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table shows possible periods for the orbits of satellites X, Y, and Z?
-                      <br>|Period of orbit of<br>satellite X<br>(hours)|Period of orbit of<br>satellite Y<br>(hours)|Period of orbit of<br>satellite Z<br>(hours)
-                      :-:|:-:|:-:|:-:
-                      A|12|18|24
-                      B|24|18|12
-                      C|24|24|24
-                      D|40|36|24
-                      E|4|6|12
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which row in the table shows possible periods for the orbits of satellites X, Y, and Z?
+            <br>|Period of orbit of<br>satellite X<br>(hours)|Period of orbit of<br>satellite Y<br>(hours)|Period of orbit of<br>satellite Z<br>(hours)
+            :-:|:-:|:-:|:-:
+            A|12|18|24
+            B|24|18|12
+            C|24|24|24
+            D|40|36|24
+            E|4|6|12
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Physics
@@ -1090,19 +991,17 @@
       ~
       When switched on, each rocket engine produces the same amount of force.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which rocket engines are switched on to reduce the speed of the spacecraft?
-                      <ol type="A">
-                        <li>R and S</li>
-                        <li>Q and S</li>
-                        <li>P and Q</li>
-                        <li>P and R</li>
-                        <li>P, Q, R, and S</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which rocket engines are switched on to reduce the speed of the spacecraft?
+            <ol type="A">
+              <li>R and S</li>
+              <li>Q and S</li>
+              <li>P and Q</li>
+              <li>P and R</li>
+              <li>P, Q, R, and S</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Physics
@@ -1117,19 +1016,17 @@
       2.5|22
       4.0|35
   c:
-      - p:
-            c:
-                - q: |-
-                      The weight of a 6.0 kg mass on the surface of the planet is:
-                      <ol type="A">
-                        <li>0.68 N</li>
-                        <li>1.5 N</li>
-                        <li>8.8 N</li>
-                        <li>53 N</li>
-                        <li>59 N.</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            The weight of a 6.0 kg mass on the surface of the planet is:
+            <ol type="A">
+              <li>0.68 N</li>
+              <li>1.5 N</li>
+              <li>8.8 N</li>
+              <li>53 N</li>
+              <li>59 N.</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1138,19 +1035,17 @@
   qn: 11
   pre: A hair dryer is connected to a 230 V supply. The current in the hair dryer is 2.0 A.
   c:
-      - p:
-            c:
-                - q: |-
-                      The electrical charge that passes through the hair dryer in 5 minutes is:
-                      <ol type="A">
-                        <li>10 C</li>
-                        <li>460 C</li>
-                        <li>600 C</li>
-                        <li>1150 C</li>
-                        <li>2300 C.</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            The electrical charge that passes through the hair dryer in 5 minutes is:
+            <ol type="A">
+              <li>10 C</li>
+              <li>460 C</li>
+              <li>600 C</li>
+              <li>1150 C</li>
+              <li>2300 C.</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Physics
@@ -1167,19 +1062,17 @@
         <li>Component Q has a resistance that decreases as the current increases.</li>
       </ol>
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of these statements is/are correct?
-                      <ol type="A">
-                        <li>I only</li>
-                        <li>II only</li>
-                        <li>III only</li>
-                        <li>I and II only</li>
-                        <li>II and III only</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>II and III only</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1191,19 +1084,17 @@
       ~
       The resistors are identical.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table shows the reading on the voltmeter and possible readings on ammeters A<sub>1</sub> and A<sub>2</sub>?
-                      <br>|Reading on<br>voltmeter<br>(V)|Reading on<br>ammeter A1<br>(A)|Reading on<br>ammeter A2<br>(A)
-                      :-:|:-:|:-:|:-:
-                      A|6|0.3|0.3
-                      B|6|0.6|0.3
-                      C|12|0.3|0.3
-                      D|12|0.3|0.6
-                      E|12|0.6|0.3
-                  marks: 1
-                  answer: E
+      - q: |-
+            Which row in the table shows the reading on the voltmeter and possible readings on ammeters A<sub>1</sub> and A<sub>2</sub>?
+            <br>|Reading on<br>voltmeter<br>(V)|Reading on<br>ammeter A1<br>(A)|Reading on<br>ammeter A2<br>(A)
+            :-:|:-:|:-:|:-:
+            A|6|0.3|0.3
+            B|6|0.6|0.3
+            C|12|0.3|0.3
+            D|12|0.3|0.6
+            E|12|0.6|0.3
+        marks: 1
+        answer: E
 
 - level: N5
   subject: Physics
@@ -1211,13 +1102,11 @@
   year: 2022
   qn: 14
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following symbols represents a thermistor?
-                      ~
-                  marks: 1
-                  answer: B
+      - q: |-
+            Which of the following symbols represents a thermistor?
+            ~
+        marks: 1
+        answer: B
 
 - level: N5
   subject: Physics
@@ -1236,19 +1125,17 @@
         <li>Substance X has a higher specific heat capacity than substance Y.</li>
       </ol>
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of these statements is/are correct?
-                      <ol type="A">
-                        <li>I only</li>
-                        <li>I and II only</li>
-                        <li>III only</li>
-                        <li>I and II only</li>
-                        <li>I, II and III</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>I and II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>I, II and III</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1257,19 +1144,17 @@
   qn: 16
   pre: Heat from the Sun melts 1.6 kg of ice in 40 minutes.
   c:
-      - p:
-            c:
-                - q: |-
-                      The minimum heat energy required to change 1.6 kg of ice at 0 °C into water at 0 °C is:
-                      <ol type="A">
-                        <li>6.7 $\times$ 10<sup>3</sup> J</li>
-                        <li>1.3 $\times$ 10<sup>4</sup> J</li>
-                        <li>2.1 $\times$ 10<sup>5</sup> J</li>
-                        <li>5.3 $\times$ 10<sup>5</sup> J</li>
-                        <li>3.6 $\times$ 10<sup>6</sup> J.</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            The minimum heat energy required to change 1.6 kg of ice at 0 °C into water at 0 °C is:
+            <ol type="A">
+              <li>6.7 $\times$ 10<sup>3</sup> J</li>
+              <li>1.3 $\times$ 10<sup>4</sup> J</li>
+              <li>2.1 $\times$ 10<sup>5</sup> J</li>
+              <li>5.3 $\times$ 10<sup>5</sup> J</li>
+              <li>3.6 $\times$ 10<sup>6</sup> J.</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1282,19 +1167,17 @@
       The combined mass of the cyclist and bicycle is 70.0 kg.
       The total contact area between the tyres and the road is 8.0 $\times$ 10<sup>−4</sup> m<sup>2</sup>.
   c:
-      - p:
-            c:
-                - q: |-
-                      The average pressure exerted by the tyres on the road is:
-                      <ol type="A">
-                        <li>1.2 × 10<sup>−6</sup> Pa</li>
-                        <li>5.6 × 10<sup>−2</sup> Pa</li>
-                        <li>8.8 × 10<sup>4</sup> Pa</li>
-                        <li>.3 × 10<sup>5</sup> Pa</li>
-                        <li>8.6 × 10<sup>5</sup> Pa.</li>
-                      </ol>
-                  marks: 1
-                  answer: E
+      - q: |-
+            The average pressure exerted by the tyres on the road is:
+            <ol type="A">
+              <li>1.2 × 10<sup>−6</sup> Pa</li>
+              <li>5.6 × 10<sup>−2</sup> Pa</li>
+              <li>8.8 × 10<sup>4</sup> Pa</li>
+              <li>.3 × 10<sup>5</sup> Pa</li>
+              <li>8.6 × 10<sup>5</sup> Pa.</li>
+            </ol>
+        marks: 1
+        answer: E
 
 - level: N5
   subject: Physics
@@ -1309,19 +1192,17 @@
       $k_B$ is Boltzmann’s constant = 1.38 × 10<sup>−23</sup>J K<sup>−1</sup>
       $T$ is the temperature of a gas molecule in kelvin, K.
   c:
-      - p:
-            c:
-                - q: |-
-                      The average kinetic energy of a gas molecule at 100 °C is:
-                      <ol type="A">
-                        <li>2.07 × 10<sup>−21</sup> J</li>
-                        <li>3.58 × 10<sup>−21</sup> J</li>
-                        <li>5.15 × 10<sup>−21</sup> J</li>
-                        <li>5.65 × 10<sup>−21</sup> J</li>
-                        <li>7.72 × 10<sup>−21</sup> J.</li>
-                      </ol>
-                  marks: 1
-                  answer: E
+      - q: |-
+            The average kinetic energy of a gas molecule at 100 °C is:
+            <ol type="A">
+              <li>2.07 × 10<sup>−21</sup> J</li>
+              <li>3.58 × 10<sup>−21</sup> J</li>
+              <li>5.15 × 10<sup>−21</sup> J</li>
+              <li>5.65 × 10<sup>−21</sup> J</li>
+              <li>7.72 × 10<sup>−21</sup> J.</li>
+            </ol>
+        marks: 1
+        answer: E
 
 - level: N5
   subject: Physics
@@ -1329,19 +1210,17 @@
   year: 2022
   qn: 19
   c:
-      - p:
-            c:
-                - q: |-
-                      Which of the following is a longitudinal wave?
-                      <ol type="A">
-                        <li>sound</li>
-                        <li>radio</li>
-                        <li>ultraviolet</li>
-                        <li>infrared</li>
-                        <li>light</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            Which of the following is a longitudinal wave?
+            <ol type="A">
+              <li>sound</li>
+              <li>radio</li>
+              <li>ultraviolet</li>
+              <li>infrared</li>
+              <li>light</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Physics
@@ -1350,19 +1229,17 @@
   qn: 20
   pre: A radio station transmits radio signals with a frequency range from 3.0 MHz to 6.0 MHz
   c:
-      - p:
-            c:
-                - q: |-
-                      The maximum wavelength of the radio signal transmitted is:
-                      <ol type="A">
-                        <li>0.01 m</li>
-                        <li>0.02 m</li>
-                        <li>50 m</li>
-                        <li>100 m</li>
-                        <li>113 m.</li>
-                      </ol>
-                  marks: 1
-                  answer: D
+      - q: |-
+            The maximum wavelength of the radio signal transmitted is:
+            <ol type="A">
+              <li>0.01 m</li>
+              <li>0.02 m</li>
+              <li>50 m</li>
+              <li>100 m</li>
+              <li>113 m.</li>
+            </ol>
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1374,19 +1251,17 @@
       ~
       The diagram is **not** correct.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which **two** bands of the electromagnetic spectrum are in the wrong position?
-                      <ol type="A">
-                        <li>gamma rays and radio waves</li>
-                        <li>X-rays and microwaves</li>
-                        <li>infrared and ultraviolet</li>
-                        <li>visible light and microwaves</li>
-                        <li>X-rays and visible light</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            Which **two** bands of the electromagnetic spectrum are in the wrong position?
+            <ol type="A">
+              <li>gamma rays and radio waves</li>
+              <li>X-rays and microwaves</li>
+              <li>infrared and ultraviolet</li>
+              <li>visible light and microwaves</li>
+              <li>X-rays and visible light</li>
+            </ol>
+        marks: 1
+        answer: C
 
 - level: N5
   subject: Physics
@@ -1398,19 +1273,17 @@
       Sheets of aluminium and paper are placed in front of the source as shown.
       ~
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table shows the radiation(s) from the source detected at points P and Q?
-                      <br>|Radiation(s) detected at P|Radiation(s) detected at Q
-                      :-:|:-:|:-:
-                      A|beta and gamma|gamma
-                      B|beta|alpha
-                      C|beta and gamma|beta and gamma
-                      D|alpha and gamma|gamma
-                      E|gamma|gamma
-                  marks: 1
-                  answer: E
+      - q: |-
+            Which row in the table shows the radiation(s) from the source detected at points P and Q?
+            <br>|Radiation(s) detected at P|Radiation(s) detected at Q
+            :-:|:-:|:-:
+            A|beta and gamma|gamma
+            B|beta|alpha
+            C|beta and gamma|beta and gamma
+            D|alpha and gamma|gamma
+            E|gamma|gamma
+        marks: 1
+        answer: E
 
 - level: N5
   subject: Physics
@@ -1419,19 +1292,17 @@
   qn: 23
   pre: A radioactive sample emits 3000 alpha particles in 2 minutes.
   c:
-      - p:
-            c:
-                - q: |-
-                      The activity of the sample is:
-                      <ol type="A">
-                        <li>25 Bq</li>
-                        <li>1500 Bq</li>
-                        <li>3000 Bq</li>
-                        <li>6000 Bq</li>
-                        <li>360 000 Bq.</li>
-                      </ol>
-                  marks: 1
-                  answer: A
+      - q: |-
+            The activity of the sample is:
+            <ol type="A">
+              <li>25 Bq</li>
+              <li>1500 Bq</li>
+              <li>3000 Bq</li>
+              <li>6000 Bq</li>
+              <li>360 000 Bq.</li>
+            </ol>
+        marks: 1
+        answer: A
 
 - level: N5
   subject: Physics
@@ -1444,19 +1315,17 @@
       A number of different substances which emit either beta or gamma radiation are available.
       The substances have different half-lives.
   c:
-      - p:
-            c:
-                - q: |-
-                      Which row in the table identifies the radiation emitted and the half-life of the most suitable substance?
-                      <br>|Radiation<br>emitted|Half‑life
-                      :-:|:-:|:-:
-                      A|beta|2 days
-                      B|beta|2 years
-                      C|gamma|2 seconds
-                      D|gamma|2 days
-                      E|gamma|2 years
-                  marks: 1
-                  answer: D
+      - q: |-
+            Which row in the table identifies the radiation emitted and the half-life of the most suitable substance?
+            <br>|Radiation<br>emitted|Half‑life
+            :-:|:-:|:-:
+            A|beta|2 days
+            B|beta|2 years
+            C|gamma|2 seconds
+            D|gamma|2 days
+            E|gamma|2 years
+        marks: 1
+        answer: D
 
 - level: N5
   subject: Physics
@@ -1467,16 +1336,14 @@
       Rhodium-106 has a half-life of 30 s.
       A sample of rhodium-106 has an activity of 3200 Bq
   c:
-      - p:
-            c:
-                - q: |-
-                      The activity of this sample after 120 s is:
-                      <ol type="A">
-                        <li>27 Bq</li>
-                        <li>107 Bq</li>
-                        <li>200 Bq</li>
-                        <li>400 Bq</li>
-                        <li>800 Bq.</li>
-                      </ol>
-                  marks: 1
-                  answer: C
+      - q: |-
+            The activity of this sample after 120 s is:
+            <ol type="A">
+              <li>27 Bq</li>
+              <li>107 Bq</li>
+              <li>200 Bq</li>
+              <li>400 Bq</li>
+              <li>800 Bq.</li>
+            </ol>
+        marks: 1
+        answer: C

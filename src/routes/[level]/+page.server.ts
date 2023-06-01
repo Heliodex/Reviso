@@ -1,22 +1,38 @@
 import YAML from "yamljs"
 import questionsRaw from "$lib/questions.yaml?raw"
+// import questions from "$lib/questions.json"
 import { error } from "@sveltejs/kit"
 
-const questions = YAML.parse(questionsRaw)
+const questions: {
+	level: string
+	subject: string
+	paper: number
+	year: number
+	qn: number
+	pre?: string
+	c: [
+		{
+			q: string
+			post?: string
+			marks: number
+			mi?: number
+			answer?: string
+		}
+	]
+}[] = YAML.parse(questionsRaw)
 
 export const load = async ({ params }) => {
 	params.level = params.level.toUpperCase()
-	if (["N4", "N5", "H", "AH"].includes(params.level)) {
-		let result = questions.filter((v: any) => v.level == params.level)
+	if (!["N4", "N5", "H", "AH"].includes(params.level))
+		throw error(404, "Not found")
 
-		let subjects: string[] = []
-		for (let i of result)
-			if (!subjects.includes(i.subject)) subjects.push(i.subject)
+	const result = questions.filter(v => v.level == params.level)
 
-		subjects.sort()
+	const subjects: string[] = []
+	for (const i of result)
+		if (!subjects.includes(i.subject)) subjects.push(i.subject)
 
-		return { subjects }
-	}
+	subjects.sort()
 
-	throw error(404, "Not found")
+	return { subjects }
 }
