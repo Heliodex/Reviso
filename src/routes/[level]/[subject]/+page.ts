@@ -1,25 +1,5 @@
-import YAML from "yamljs"
-import questionsRaw from "$lib/questions.yaml?raw"
-// import questions from "$lib/questions.json"
+import questions from "$lib/questions.json"
 import { error } from "@sveltejs/kit"
-
-const questions: {
-	level: string
-	subject: string
-	paper: number
-	year: number
-	qn: number
-	pre?: string
-	c: [
-		{
-			q: string
-			post?: string
-			marks: number
-			mi?: number
-			answer?: string
-		}
-	]
-}[] = YAML.parse(questionsRaw)
 
 export const load = async ({ params, url, setHeaders }) => {
 	params.level = params.level.toUpperCase()

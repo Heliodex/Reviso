@@ -1,0 +1,486 @@
+- paper: 1
+  year: 2022
+  qn: 1
+  c:
+      - q: |-
+            Which of the following contains one scalar quantity and one vector quantity?
+            <ol type="A">
+              <li>acceleration; displacement</li>
+              <li>kinetic energy; speed</li>
+              <li>velocity; weight</li>
+              <li>potential energy; work</li>
+              <li>distance; force</li>
+            </ol>
+        marks: 1
+        answer: E
+
+- paper: 1
+  year: 2022
+  qn: 2
+  pre: |-
+      The diagram shows a toy car at rest at the top of a slope.
+      The car is released and travels with a constant acceleration down the slope.
+      ~
+  c:
+      - q: |-
+            Which row in the table could show the speed of the toy car at P, the speed of the toy car at Q, and the average speed of the car between P and Q?
+            <br>|Speed at P<br>(ms<sup>−1</sup>)|Speed at Q<br>(ms<sup>−1</sup>)|Average speed<br>between P and Q<br>(ms<sup>−1</sup>)
+            :-:|:-:|:-:|:-:
+            A|0|2|1
+            B|1|1|1
+            C|1|3|2
+            D|2|3|2
+            E|2|3|4
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 3
+  pre: |-
+      The graph of speed $v$ against time $t$ represents the motion of a cyclist over a 20 second period.
+      ~
+  c:
+      - q: |-
+            The distance travelled by the cyclist in the 20 second period is:
+            <ol type="A">
+              <li>56 m</li>
+              <li>144 m</li>
+              <li>160 m</li>
+              <li>176 m</li>
+              <li>200 m.</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 4
+  pre: |-
+      A student is investigating the motion of water rockets.
+      ~
+      Air is pumped into the rocket until the pressure of the air inside is large enough for the water rocket to launch upwards.
+  c:
+      - q: |-
+            The rocket launches because:
+            <ol type="A">
+              <li>the rocket pushes down on the ground and the ground provides a reaction force pushing up on the rocket</li>
+              <li>the rocket pushes down on the water and the water provides a reaction force pushing up on the rocket</li>
+              <li>the water pushes down on the ground and the ground provides a reaction force pushing up on the water</li>
+              <li>the force applied by the water on the ground is greater than the weight of the rocket producing an unbalanced upward force</li>
+              <li>the weight of the rocket decreases as water is pushed out of the rocket producing an unbalanced upward force.</li>
+            </ol>
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 5
+  pre: |-
+      A ball of mass 0.25 kg is released from a height of 6.0 m above the ground.
+      ~
+  c:
+      - q: |-
+            Which row in the table shows the change in gravitational potential energy and the kinetic energy of the ball when it is at a height of 4.0 m above the ground?
+            <br>|Change in gravitational<br>potential energy (J)|Kinetic energy (J)
+            :-:|:-:|:-:
+            A|14.7|0.0
+            B|4.9|4.9
+            C|9.8|4.9
+            D|4.9|9.8
+            E|14.7|14.7
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 6
+  pre: |-
+      Astronauts orbiting in the International Space Station experience ‘weightlessness’.
+      A group of students make the following statements to explain ‘weightlessness’ in the orbiting space station:
+      <ol type="I">
+        <li>The gravitational field strength inside the space station is zero.</li>
+        <li>The space station and astronauts are both accelerating at the same rate towards theEarth.</li>
+        <li>The forces acting on the astronauts are balanced.</li>
+      </ol>
+  c:
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>II and III only</li>
+            </ol>
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 7
+  c:
+      - q: |-
+            Which of the following lists the distances from longest to shortest?
+            <ol type="A">
+              <li>radius of Earth; radius of orbit of Moon; diameter of galaxy</li>
+              <li>radius of orbit of Moon; radius of Earth; diameter of galaxy</li>
+              <li>diameter of galaxy; radius of orbit of Moon; radius of Earth</li>
+              <li>diameter of galaxy; radius of Earth; radius of orbit of Moon</li>
+              <li>radius of orbit of Moon; diameter of galaxy; radius of Earth</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 8
+  pre: |-
+      Three satellites X, Y, and Z are orbiting the Earth as shown.
+      ~
+      Satellite Z is a geostationary satellite.
+  c:
+      - q: |-
+            Which row in the table shows possible periods for the orbits of satellites X, Y, and Z?
+            <br>|Period of orbit of<br>satellite X<br>(hours)|Period of orbit of<br>satellite Y<br>(hours)|Period of orbit of<br>satellite Z<br>(hours)
+            :-:|:-:|:-:|:-:
+            A|12|18|24
+            B|24|18|12
+            C|24|24|24
+            D|40|36|24
+            E|4|6|12
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 9
+  pre: |-
+      A spacecraft has four rocket engines P, Q, R, and S and is travelling to the right as shown.
+      ~
+      When switched on, each rocket engine produces the same amount of force.
+  c:
+      - q: |-
+            Which rocket engines are switched on to reduce the speed of the spacecraft?
+            <ol type="A">
+              <li>R and S</li>
+              <li>Q and S</li>
+              <li>P and Q</li>
+              <li>P and R</li>
+              <li>P, Q, R, and S</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 10
+  pre: |-
+      The weights of three masses on the surface of a planet are shown in the table.
+      Mass (kg)|Weight (N)
+      :-:|:-:
+      0.50|4.4
+      2.5|22
+      4.0|35
+  c:
+      - q: |-
+            The weight of a 6.0 kg mass on the surface of the planet is:
+            <ol type="A">
+              <li>0.68 N</li>
+              <li>1.5 N</li>
+              <li>8.8 N</li>
+              <li>53 N</li>
+              <li>59 N.</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 11
+  pre: A hair dryer is connected to a 230 V supply. The current in the hair dryer is 2.0 A.
+  c:
+      - q: |-
+            The electrical charge that passes through the hair dryer in 5 minutes is:
+            <ol type="A">
+              <li>10 C</li>
+              <li>460 C</li>
+              <li>600 C</li>
+              <li>1150 C</li>
+              <li>2300 C.</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 12
+  pre: |-
+      The graph shows how the voltages across the components P, Q, and R vary with current.
+      ~
+      Based on this graph, a group of students make the following statements:
+      <ol type="I">
+        <li>Component P has a greater resistance than component R.</li>
+        <li>Component R has a greater resistance than component Q.</li>
+        <li>Component Q has a resistance that decreases as the current increases.</li>
+      </ol>
+  c:
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>II and III only</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 13
+  pre: |-
+      The graph shows how the voltages across the components P, Q, and R vary with current.
+      ~
+      The resistors are identical.
+  c:
+      - q: |-
+            Which row in the table shows the reading on the voltmeter and possible readings on ammeters A<sub>1</sub> and A<sub>2</sub>?
+            <br>|Reading on<br>voltmeter<br>(V)|Reading on<br>ammeter A1<br>(A)|Reading on<br>ammeter A2<br>(A)
+            :-:|:-:|:-:|:-:
+            A|6|0.3|0.3
+            B|6|0.6|0.3
+            C|12|0.3|0.3
+            D|12|0.3|0.6
+            E|12|0.6|0.3
+        marks: 1
+        answer: E
+
+- paper: 1
+  year: 2022
+  qn: 14
+  c:
+      - q: |-
+            Which of the following symbols represents a thermistor?
+            ~
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 15
+  pre: |-
+      Two substances X and Y are both solid at 20 °C.
+      The substances have the same mass and are supplied with the same amount of energy per second.
+      The graph shows how the temperature of each substance varies with time.
+      ~
+      A student uses information from the graph to make the following statements:
+      <ol type="I">
+        <li>Substance X has a higher specific heat capacity than substance Y.</li>
+        <li>Substance Y has a higher specific heat capacity than substance X.</li>
+        <li>Substance X has a higher specific heat capacity than substance Y.</li>
+      </ol>
+  c:
+      - q: |-
+            Which of these statements is/are correct?
+            <ol type="A">
+              <li>I only</li>
+              <li>I and II only</li>
+              <li>III only</li>
+              <li>I and II only</li>
+              <li>I, II and III</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 16
+  pre: Heat from the Sun melts 1.6 kg of ice in 40 minutes.
+  c:
+      - q: |-
+            The minimum heat energy required to change 1.6 kg of ice at 0 °C into water at 0 °C is:
+            <ol type="A">
+              <li>6.7 $\times$ 10<sup>3</sup> J</li>
+              <li>1.3 $\times$ 10<sup>4</sup> J</li>
+              <li>2.1 $\times$ 10<sup>5</sup> J</li>
+              <li>5.3 $\times$ 10<sup>5</sup> J</li>
+              <li>3.6 $\times$ 10<sup>6</sup> J.</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 17
+  pre: |-
+      A cyclist is riding a bicycle along a level road.
+      ¬
+      The combined mass of the cyclist and bicycle is 70.0 kg.
+      The total contact area between the tyres and the road is 8.0 $\times$ 10<sup>−4</sup> m<sup>2</sup>.
+  c:
+      - q: |-
+            The average pressure exerted by the tyres on the road is:
+            <ol type="A">
+              <li>1.2 × 10<sup>−6</sup> Pa</li>
+              <li>5.6 × 10<sup>−2</sup> Pa</li>
+              <li>8.8 × 10<sup>4</sup> Pa</li>
+              <li>.3 × 10<sup>5</sup> Pa</li>
+              <li>8.6 × 10<sup>5</sup> Pa.</li>
+            </ol>
+        marks: 1
+        answer: E
+
+- paper: 1
+  year: 2022
+  qn: 18
+  pre: |-
+      The average kinetic energy of a gas molecule can be determined using the following relationship.
+      $$E_k=\frac{3}{2}k_BT$$
+      where:
+      $E_k$ is the average kinetic energy of a gas molecule in joules, J
+      $k_B$ is Boltzmann’s constant = 1.38 × 10<sup>−23</sup>J K<sup>−1</sup>
+      $T$ is the temperature of a gas molecule in kelvin, K.
+  c:
+      - q: |-
+            The average kinetic energy of a gas molecule at 100 °C is:
+            <ol type="A">
+              <li>2.07 × 10<sup>−21</sup> J</li>
+              <li>3.58 × 10<sup>−21</sup> J</li>
+              <li>5.15 × 10<sup>−21</sup> J</li>
+              <li>5.65 × 10<sup>−21</sup> J</li>
+              <li>7.72 × 10<sup>−21</sup> J.</li>
+            </ol>
+        marks: 1
+        answer: E
+
+- paper: 1
+  year: 2022
+  qn: 19
+  c:
+      - q: |-
+            Which of the following is a longitudinal wave?
+            <ol type="A">
+              <li>sound</li>
+              <li>radio</li>
+              <li>ultraviolet</li>
+              <li>infrared</li>
+              <li>light</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 20
+  pre: A radio station transmits radio signals with a frequency range from 3.0 MHz to 6.0 MHz
+  c:
+      - q: |-
+            The maximum wavelength of the radio signal transmitted is:
+            <ol type="A">
+              <li>0.01 m</li>
+              <li>0.02 m</li>
+              <li>50 m</li>
+              <li>100 m</li>
+              <li>113 m.</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 21
+  pre: |-
+      A student draws a diagram to show the bands of the electromagnetic spectrum in order of increasing wavelength.
+      ~
+      The diagram is **not** correct.
+  c:
+      - q: |-
+            Which **two** bands of the electromagnetic spectrum are in the wrong position?
+            <ol type="A">
+              <li>gamma rays and radio waves</li>
+              <li>X-rays and microwaves</li>
+              <li>infrared and ultraviolet</li>
+              <li>visible light and microwaves</li>
+              <li>X-rays and visible light</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 22
+  pre: |-
+      A radioactive source emits alpha, beta, and gamma radiations.
+      Sheets of aluminium and paper are placed in front of the source as shown.
+      ~
+  c:
+      - q: |-
+            Which row in the table shows the radiation(s) from the source detected at points P and Q?
+            <br>|Radiation(s) detected at P|Radiation(s) detected at Q
+            :-:|:-:|:-:
+            A|beta and gamma|gamma
+            B|beta|alpha
+            C|beta and gamma|beta and gamma
+            D|alpha and gamma|gamma
+            E|gamma|gamma
+        marks: 1
+        answer: E
+
+- paper: 1
+  year: 2022
+  qn: 23
+  pre: A radioactive sample emits 3000 alpha particles in 2 minutes.
+  c:
+      - q: |-
+            The activity of the sample is:
+            <ol type="A">
+              <li>25 Bq</li>
+              <li>1500 Bq</li>
+              <li>3000 Bq</li>
+              <li>6000 Bq</li>
+              <li>360 000 Bq.</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 24
+  pre: |-
+      A radioactive substance is to be injected into a patient so that blood flow can be monitored using a detector.
+      ~
+      A number of different substances which emit either beta or gamma radiation are available.
+      The substances have different half-lives.
+  c:
+      - q: |-
+            Which row in the table identifies the radiation emitted and the half-life of the most suitable substance?
+            <br>|Radiation<br>emitted|Half‑life
+            :-:|:-:|:-:
+            A|beta|2 days
+            B|beta|2 years
+            C|gamma|2 seconds
+            D|gamma|2 days
+            E|gamma|2 years
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 25
+  pre: |-
+      Rhodium-106 has a half-life of 30 s.
+      A sample of rhodium-106 has an activity of 3200 Bq
+  c:
+      - q: |-
+            The activity of this sample after 120 s is:
+            <ol type="A">
+              <li>27 Bq</li>
+              <li>107 Bq</li>
+              <li>200 Bq</li>
+              <li>400 Bq</li>
+              <li>800 Bq.</li>
+            </ol>
+        marks: 1
+        answer: C

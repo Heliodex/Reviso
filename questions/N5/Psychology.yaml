@@ -1,0 +1,88 @@
+- paper: 0
+  year: 2022
+  qn: 1a
+  c:
+      - q: Describe the Restoration Theory of Sleep (Oswald, 1966).
+        marks: 4
+        mi: 3
+      - q: Explain **one** strength and **one** weakness of the Restoration Theory of Sleep (Oswald, 1966).
+        marks: 4
+        mi: 3
+
+- paper: 0
+  year: 2022
+  qn: 1b
+  c:
+      - q: Describe the **aim(s)** and **results** of the Dement and Kleitman (1957) study.
+        marks: 3
+        mi: 4
+      - q: Explain **one** weakness of the Dement and Kleitman (1957) study.
+        marks: 2
+        mi: 4
+
+- paper: 0
+  year: 2022
+  qn: 1c
+  pre: Bob is meeting his partner’s parents tomorrow. He says he is looking forward to meeting them. That night he has a dream that he is being chased by two scary creatures.
+  c:
+      - q: Using the psychoanalytic (Freudian) theory of dreams, explain Bob’s dream.
+        marks: 6
+        mi: 5
+
+- paper: 0
+  year: 2022
+  qn: 1d
+  c:
+      - q: |-
+            Describe Freud’s (1909) study of Little Hans. In your answer you should include:
+            * aim(s)
+            * method/procedure
+            * results.
+        marks: 4
+        mi: 5
+      - q: Explain **one** weakness of the Little Hans (1909) study.
+        marks: 2
+        mi: 6
+
+- paper: 0
+  year: 2022
+  qn: 2a
+  c:
+      - q: Describe what is meant by minority influence.
+        marks: 2
+        mi: 7
+
+- paper: 0
+  year: 2022
+  qn: 2b
+  c:
+      - q: Explain internalisation **and** informational social influence.
+        marks: 4
+        mi: 7
+
+- paper: 0
+  year: 2022
+  qn: 2c
+  c:
+      - q: |-
+            Describe Asch’s (1951) study into conformity. In your answer you should include:
+            * aim(s)
+            * method/procedure
+            * results.
+        marks: 4
+        mi: 8
+      - q: Explain **one** strength of the Asch study of conformity.
+        marks: 2
+        mi: 8
+      - q: Explain how the Mori and Arai (2010) study attempted to improve the Asch (1951) study.
+        marks: 5
+        mi: 9
+
+- paper: 0
+  year: 2022
+  qn: 2d
+  pre: Amy really dislikes cigarettes but all of her new friends smoke. When she meets three of them at the weekend they offer her a cigarette and she smokes it even though she thinks it is bad for her health.
+  c:
+      - q: Using your knowledge of conformity, explain Amy’s behaviour.
+        marks: 8
+        mi: 10

@@ -87,7 +87,7 @@
 	noscript p
 		margin: auto
 		text-align: center
-		font-size: 1.5rem
+		font-size: 1rem
 		
 	.button, button
 		display: flex

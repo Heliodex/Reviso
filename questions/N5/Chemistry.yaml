@@ -1,0 +1,393 @@
+- paper: 1
+  year: 2022
+  qn: 1
+  c:
+      - q: |-
+            Which of the following is the atomic number of a metal?
+            <ol type="A">
+              <li>1</li>
+              <li>33</li>
+              <li>45</li>
+              <li>86</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 2
+  c:
+      - q: |-
+            An atom is neutral because:
+            <ol type="A">
+              <li>the number of protons equals the number of neutrons</li>
+              <li>the number of electrons equals the number of protons</li>
+              <li>the number of electrons equals the number of protons plus neutrons</li>
+              <li>the number of neutrons equals the number of electrons plus protons.</li>
+            </ol>
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 3
+  c:
+      - q: |-
+            When liquid water changes to steam:
+            <ol type="A">
+              <li>weak forces of attraction between the water molecules are broken</li>
+              <li>strong forces of attraction between the water molecules are broken</li>
+              <li>weak forces of attraction between the atoms in the water molecules are broken</li>
+              <li>strong forces of attraction between the atoms in the water molecules are broken.</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 4
+  c:
+      - q: |-
+            Which line in the table shows how the concentration of a solution changes when more solute or solvent is added?
+            <br>|Adding solute|Adding solvent
+            :-:|:-:|:-:
+            A|concentration decreases|concentration increases
+            B|concentration decreases|concentration decreases
+            C|concentration increases|concentration decreases
+            D|concentration increases|concentration increases
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 5
+  c:
+      - q: |-
+            Which of the following structures would be described as angular?
+            ~
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 6
+  pre: |-
+      Electronegativity is a measure of the attraction a nucleus has for the shared pair of electrons in a covalent bond.
+      When two nuclei that have different electronegativity values are bonded together, the bond formed is described as ‘polar covalent’.
+      The bigger the difference in the electronegativity values the more polar the bond.
+      The table contains electronegativity values for some atoms.
+      Atom|Electronegativity value
+      :-:|:-:
+      H|2.2
+      C|2.6
+      N|3.0
+      O|3.4
+  c:
+      - q: |-
+            Which of the following bonds would be the most polar?
+            <ol type="A">
+              <li>O-H</li>
+              <li>N-H</li>
+              <li>C-H</li>
+              <li>C-O</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 7
+  c:
+      - q: |-
+            Which line in the table shows what would be observed during the electrolysis of copper chloride, using a d.c. supply?
+            <br>|At the positive electrode|At the negative electrode
+            :-:|:-:|:-:
+            A|gas forms|solid forms
+            B|gas forms|gas forms
+            C|solid forms|gas forms
+            D|solid forms|solid forms
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 8
+  c:
+      - q: |-
+            Which of the following compounds is a salt?
+            <ol type="A">
+              <li>Calcium oxide</li>
+              <li>Hydrogen nitrate</li>
+              <li>Sodium hydroxide</li>
+              <li>Potassium ethanoate</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 9
+  c:
+      - q: |-
+            The pH of the solution formed when ammonia is bubbled into water is most likely to be:
+            <ol type="A">
+              <li>3</li>
+              <li>5</li>
+              <li>7</li>
+              <li>9</li>
+            </ol>
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 10
+  pre: |-
+      The apparatus shown can be used to identify the products of combustion.
+      ~
+      When gas **X** was burned, a colourless liquid collected in the cooled test tube but there was no change in the limewater.
+  c:
+      - q: |-
+            Gas **X** could be:
+            <ol type="A">
+              <li>methane</li>
+              <li>carbon monoxide</li>
+              <li>hydrogen</li>
+              <li>ethane.</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 11
+  c:
+      - q: |-
+            Which of the following compounds has the highest boiling point?
+            ~
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 12
+  c:
+      - q: |-
+            Which of the following molecules will decolourise bromine solution and also form an acidic solution when added to water?
+            ~
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 13
+  pre: |-
+      The first three members of the alkanones are
+      ~
+  c:
+      - q: |-
+            The general formula for the alkanones is:
+            <ol type="A">
+              <li>C<sub>n</sub>H<sub>2n-2</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n+1</sub>O</li>
+              <li>C<sub>n</sub>H<sub>2n+2</sub>O</li>
+            </ol>
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 14
+  c:
+      - q: |-
+            Which of the following could be the formula mass of a cycloalkane?
+            <ol type="A">
+              <li>40</li>
+              <li>42</li>
+              <li>54</li>
+              <li>58</li>
+            </ol>
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 15
+  c:
+      - q: |-
+            Metallic bonding is a force of attraction between:
+            <ol type="A">
+              <li>positive ions and delocalised electrons</li>
+              <li>negative ions and delocalised electrons</li>
+              <li>negative ions and positive ions</li>
+              <li>a shared pair of electrons and two nuclei.</li>
+            </ol>
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 16
+  pre: Metals used to make aircraft have a density of less than 3 g cm−3 and have to withstand temperatures up to 600 °C.
+  c:
+      - q: |-
+            Which line in the table gives the correct data for a metal used to make aircraft?
+            <br>|Melting point (°C)|Density (g cm<sup>−3</sup>)
+            :-:|:-:|:-:
+            A|98|0.97
+            B|660|2.70
+            C|1854|6.52
+            D|1085|8.96
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 17
+  c:
+      - q: |-
+            Which of these metals can only be extracted from its ore by electrolysis and forms an oxide that is insoluble in water?
+            <ol type="A">
+              <li>Aluminium</li>
+              <li>Calcium</li>
+              <li>Copper</li>
+              <li>Lead</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 18
+  pre: |-
+      ~
+  c:
+      - q: |-
+            Which statement correctly describes the electron flow in the cell?
+            <ol type="A">
+              <li>Through the electrolyte from aluminium to nickel.</li>
+              <li>Through the electrolyte from nickel to aluminium.</li>
+              <li>Through the connecting wire from nickel to aluminium.</li>
+              <li>Through the connecting wire from aluminium to nickel.</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 19
+  c:
+      - q: |-
+            Which metal, when paired with magnesium in a cell, will produce the highest voltage?
+            <ol type="A">
+              <li>Iron</li>
+              <li>Lead</li>
+              <li>Tin</li>
+              <li>Zinc</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 20
+  pre: |-
+      ~
+      The reactions occurring at each electrode are:
+
+      Beaker **A**: Br<sup>2</sup>(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup>(aq)
+
+      Beaker **B**: SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup>
+  c:
+      - q: |-
+            Which of the following equations is the overall redox reaction in the cell?
+            <ol type="A">
+              <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) + 2e<sup>−</sup> → 2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) + 2e<sup>−</sup></li>
+              <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ)</li>
+              <li>Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq) + H<sub>2</sub>O(ℓ) → 2Br<sup>−</sup> (aq) + SO<sub>4</sub></sub><sup>2−</sup> (aq) + 2H<sup>+</sup> (aq)</li>
+              <li>2Br<sup>−</sup> (aq) + SO<sub>4</sub><sup>2−</sup> (aq) → Br<sub>2</sub>(ℓ) + SO<sub>3</sub><sup>2−</sup> (aq)</li>
+            </ol>
+        post: You may wish to use the data booklet to help you.
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 21
+  pre: |-
+      Polymethylmethacrylate is a polymer used in the manufacture of aircraft windows. A section of the polymer chain is drawn below.
+      ~1
+  c:
+      - q: |-
+            The monomer used to make this polymer is:
+            ~2
+        marks: 1
+        answer: A
+
+- paper: 1
+  year: 2022
+  qn: 22
+  c:
+      - q: |-
+            Which line in the table is correct for the Ostwald process?
+            <br>|Product|Catalyst
+            :-:|:-:|:-:
+            A|HNO<sub>3</sub>|iron
+            B|HNO<sub>3</sub>|platinum
+            C|NH<sub>3</sub>|iron
+            D|NH<sub>3</sub>|platinum
+        marks: 1
+        answer: B
+
+- paper: 1
+  year: 2022
+  qn: 23
+  pre: Radon-222 is a radioisotope present in the Earth’s atmosphere. Plants can absorb radon-222 through their roots.
+  c:
+      - q: |-
+            Compared with radon-222 in the atmosphere, the half-life of the radon-222 in the plant cells will be:
+            <ol type="A">
+              <li>shorter</li>
+              <li>longer</li>
+              <li>the same</li>
+              <li>dependent on the size of the plant</li>
+            </ol>
+        marks: 1
+        answer: C
+
+- paper: 1
+  year: 2022
+  qn: 24
+  pre: A radioisotope is used to monitor blood flow around the body. In order to prevent damage to the body the radiation emitted must be able to escape through the skin.
+  c:
+      - q: |-
+            Which line in the table describes the type of radiation emitted and half-life that would make a radioisotope suitable for this use?
+            <br>|Type of radiation emitted|Half-life
+            :-:|:-:|:-:
+            A|alpha|long
+            B|beta|long
+            C|alpha|short
+            D|beta|short
+        marks: 1
+        answer: D
+
+- paper: 1
+  year: 2022
+  qn: 25
+  pre: A student measured 25 cm<sup>3</sup> of sodium hydroxide for a titration experiment using a 100 cm<sup>3</sup> measuring cylinder. Their teacher suggested that there was a more accurate piece of apparatus to measure this volume.
+  c:
+      - q: |-
+            Which piece of apparatus should the student have used to more accurately measure out the 25 cm<sup>3</sup> volume of sodium hydroxide?
+            <ol type="A">
+              <li>100 cm<sup>3</sup> beaker</li>
+              <li>25 cm<sup>3</sup> measuring cylinder</li>
+              <li>25 cm<sup>3</sup> pipette</li>
+              <li>100 cm<sup>3</sup> conical flask</li>
+            </ol>
+        marks: 1
+        answer: C
