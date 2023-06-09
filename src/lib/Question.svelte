@@ -17,7 +17,7 @@
 		subject: string
 		paper: number
 		year: number
-		qn: number
+		qn: number | string
 		pre?: string
 		c: [Question]
 	}
@@ -25,6 +25,8 @@
 	export let parts: [Question] = data.c
 	export let markScheme = false
 	export let depth = 0
+
+	if (typeof data.qn == "string" && /[a-z]$/.test(data.qn)) depth++
 </script>
 
 {#if parts.length > 1}
