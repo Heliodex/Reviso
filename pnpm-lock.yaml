@@ -1187,8 +1187,8 @@ packages:
     dependencies:
       '@types/estree': 1.0.8
 
-  /katex@0.16.10:
-    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
+  /katex@0.16.46:
+    resolution: {integrity: sha512-WHy4Coo+bGZyH7NwJKHkS04YFsFcarWbAEOAC3EMndzdN6VSZqklLLIgfxzyaW9jDoeGYJX9SWbJPKpecox0Uw==}
     hasBin: true
     dependencies:
       commander: 8.3.0
@@ -1225,7 +1225,7 @@ packages:
   /mathlifier@1.3.4:
     resolution: {integrity: sha512-csBBQH2WeILGo+0qWE1sFH68tIt/cpH/R/nsCu8968kSJyK0CHajypLUE2QA5dYh5KqSU+RQy62UzFNl7gblcg==}
     dependencies:
-      katex: 0.16.10
+      katex: 0.16.46
     dev: false
 
   /mdast-util-math@2.0.2:
@@ -1283,7 +1283,7 @@ packages:
     resolution: {integrity: sha512-es0CcOV89VNS9wFmyn+wyFTKweXGW4CEvdaAca6SWRWPyYCbBisnjaHLjWO4Nszuiud84jCpkHsqAJoa768Pvg==}
     dependencies:
       '@types/katex': 0.16.0
-      katex: 0.16.10
+      katex: 0.16.46
       micromark-factory-space: 1.1.0
       micromark-util-character: 1.2.0
       micromark-util-symbol: 1.1.0
